@@ -9,23 +9,21 @@ import MapScreen from './src/screens/MapScreen';
 import ProfileScreen from './src/screens/ProfileScreen';
 import SavedListingsScreen from './src/screens/SavedListingsScreen';
 
-import startMainTabs from './src/screens/startMainTabs';
-
 import configureStore from './src/store/configureStore';
 
 const store = configureStore();
 
-Navigation.registerComponent('awesome-places.AuthScreen', () => AuthScreen);
-Navigation.registerComponent('awesome-places.ChatScreen', () => ChatScreen);
-Navigation.registerComponent('awesome-places.ExploreScreen', () => ExploreScreen);
-Navigation.registerComponent('awesome-places.ListingDetailScreen', () => ListingDetailScreen);
-Navigation.registerComponent('awesome-places.MapScreen', () => MapScreen);
-Navigation.registerComponent('awesome-places.ProfileScreen', () => ProfileScreen);
-Navigation.registerComponent('awesome-places.SavedListingsScreen', () => SavedListingsScreen);
+Navigation.registerComponent('habitat-client.AuthScreen', () => AuthScreen);
+Navigation.registerComponent('habitat-client.ChatScreen', () => ChatScreen);
+Navigation.registerComponent('habitat-client.ExploreScreen', () => ExploreScreen);
+Navigation.registerComponent('habitat-client.ListingDetailScreen', () => ListingDetailScreen);
+Navigation.registerComponent('habitat-client.MapScreen', () => MapScreen);
+Navigation.registerComponent('habitat-client.ProfileScreen', () => ProfileScreen);
+Navigation.registerComponent('habitat-client.SavedListingsScreen', () => SavedListingsScreen);
 
 Navigation.startSingleScreenApp({
   screen: {
-    screen: 'awesome-places.Explore',
+    screen: 'habitat-client.AuthScreen',
     title: 'Login',
   },
 });
