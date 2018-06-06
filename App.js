@@ -1,23 +1,19 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { Navigation } from 'react-native-navigation';
+import { Provider } from 'react-redux';
 
-export default class App extends React.Component {
-  render() {
-    return (
-      <View style={styles.container}>
-        <Text>Open up App.js to start working on your app!</Text>
-        <Text>Changes you make will automatically reload.</Text>
-        <Text>Shake your phone to open the developer menu.</Text>
-      </View>
-    );
-  }
-}
+import AuthScreen from './src/screens/AuthScreen';
+import HomeScreen from './src/screens/HomeScreen';
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+import configureStore from './src/store/configureStore';
+
+const store = configureStore();
+
+Navigation.registerComponent('habitat-client.Authscreen', () => AuthScreen, store, Provider);
+Navigation.registerComponent('habitat-client.HomeScreen', () => HomeScreen, store, Provider);
+
+Navigation.startSingleScreenApp({
+  screen: {
+    screen: 'habitat-client.AuthScreen',
+    title: 'Login',
   },
 });
