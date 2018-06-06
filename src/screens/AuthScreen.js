@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import ListingsCard from '../components/ListingsCard';
 import StartMainTabs from '../screens/startMainTabs';
 
 export default class AuthScreen extends Component {
