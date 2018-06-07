@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import styled from 'styled-components';
 
+import { getListings } from '../store/actions/index';
+
 class ExploreScreen extends Component {
+  componentDidMount() {
+    this.props.onLoadListings();
+  }
+
   render() {
     return (
       <Container>
-        <StyledText>This will be the HOME screen</StyledText>
+        <StyledText>Explore</StyledText>
       </Container>
     );
   }
@@ -21,4 +28,12 @@ const StyledText = styled.Text`
   font-weight: bold;
 `;
 
-export default ExploreScreen;
+const mapStateToProps = state => ({
+  listings: state.listings.listings,
+});
+
+const mapDispatchToProps = dispatch => ({
+  onLoadListings: () => dispatch(getListings()),
+});
+
+export default connect(mapStateToProps, mapDispatchToProps)(ExploreScreen);

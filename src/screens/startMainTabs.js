@@ -33,12 +33,12 @@ const startTabs = async () => {
       {
         label: 'PROFILE',
         screen: 'habitat-client.ProfileScreen',
-        icon: savedIcon,
+        icon: ProfileIcon,
       },
     ],
     tabsStyle: {
       /* tabBarButtonColor: '#fff', */
-      tabBarSelectedButtonColor: '#78d5a2',
+      tabBarSelectedButtonColor: '#55c57a',
       tabBarBackgroundColor: '#fff',
     },
   });

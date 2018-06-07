@@ -1,13 +1,14 @@
-import { ADD_LISTING, DELETE_LISTING } from './actionTypes';
+import { SET_LISTINGS } from './actionTypes';
 
-export const addListing = listingName => ({
-  type: ADD_LISTING,
-  payload: listingName,
+export const getListings = () => dispatch => {
+  fetch('http://localhost:6969/listings')
+    .then(res => res.json())
+    .then(listings => {
+      dispatch(setListings(listings));
+    });
+};
+
+export const setListings = listings => ({
+  type: SET_LISTINGS,
+  listings,
 });
-
-export const deleteListing = key => ({
-  type: DELETE_LISTING,
-  payload: key,
-});
-
-// TODO: change actions to reflect mongoose schemas

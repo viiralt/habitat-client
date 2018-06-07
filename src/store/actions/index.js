@@ -1,1 +1,1 @@
-export { addListing, deleteListing } from './listings';
+export { addListing, deleteListing, getListings } from './listings';

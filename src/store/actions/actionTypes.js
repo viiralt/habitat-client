@@ -1,2 +1,3 @@
 export const ADD_LISTING = 'ADD_LISTING';
 export const DELETE_LISTING = 'DELETE_LISTING';
+export const SET_LISTINGS = 'SET_LISTINGS';

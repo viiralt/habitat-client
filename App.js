@@ -15,11 +15,16 @@ const store = configureStore();
 
 Navigation.registerComponent('habitat-client.AuthScreen', () => AuthScreen);
 Navigation.registerComponent('habitat-client.ChatScreen', () => ChatScreen);
-Navigation.registerComponent('habitat-client.ExploreScreen', () => ExploreScreen);
+Navigation.registerComponent('habitat-client.ExploreScreen', () => ExploreScreen, store, Provider);
 Navigation.registerComponent('habitat-client.ListingDetailScreen', () => ListingDetailScreen);
-Navigation.registerComponent('habitat-client.MapScreen', () => MapScreen);
-Navigation.registerComponent('habitat-client.ProfileScreen', () => ProfileScreen);
-Navigation.registerComponent('habitat-client.SavedListingsScreen', () => SavedListingsScreen);
+Navigation.registerComponent('habitat-client.MapScreen', () => MapScreen, store, Provider);
+Navigation.registerComponent('habitat-client.ProfileScreen', () => ProfileScreen, store, Provider);
+Navigation.registerComponent(
+  'habitat-client.SavedListingsScreen',
+  () => SavedListingsScreen,
+  store,
+  Provider
+);
 
 Navigation.startSingleScreenApp({
   screen: {
