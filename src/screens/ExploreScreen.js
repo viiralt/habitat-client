@@ -11,33 +11,9 @@ class ExploreScreen extends Component {
   }
 
   render() {
-    return (
-      <MegaWrapper>
-        <ListingsList listings={this.props.listings} />
-      </MegaWrapper>
-    );
+    return <ListingsList listings={this.props.listings} />;
   }
 }
-
-const HeaderWrapper = styled.View`
-  display: flex;
-  flex: 1;
-  align-self: center;
-`;
-
-const ListWrapper = styled.View`
-  flex: 1;
-  align-self: center;
-`;
-
-const MegaWrapper = styled.View`
-  flex: 1;
-  align-self: center;
-`;
-
-const StyledText = styled.Text`
-  font-weight: bold;
-`;
 
 const mapStateToProps = state => ({
   listings: state.listings.listings,

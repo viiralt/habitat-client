@@ -8,18 +8,22 @@ class ListingsList extends Component {
     this.props.listings.map(listing => <ListItem listing={listing} key={listing._id} />);
 
   render() {
-    return <Container>{this.renderListings()}</Container>;
+    return (
+      <ScrollView>
+        <Container>{this.renderListings()}</Container>
+      </ScrollView>
+    );
   }
 }
 
 const Container = styled.View`
-  display: flex;
-  flex: 1;
-  align-self: center;
+  padding: 0;
+  margin: 0;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
 `;
 
-const StyledText = styled.Text`
-  font-size: 16px;
-`;
+const ScrollView = styled.ScrollView``;
 
 export default ListingsList;

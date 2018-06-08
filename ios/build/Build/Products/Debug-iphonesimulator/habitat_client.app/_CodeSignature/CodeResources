@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		3/RriA6eLZ0HqTQ21cozrapuWXo=
+		USbQIlMJgWgfMl+OYY4s+qjhW7I=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -71,7 +71,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		21uqt8sraZHwcHat1UGgOMbAaDU=
+		xlM49wNpqQqABTnFqAwCFBL/WZ8=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -84,6 +84,62 @@
 		<key>MaterialIcons.ttf</key>
 		<data>
 		/AXeMSNOAJD33cKM4bI69AJssdo=
+		</data>
+		<key>Nunito-Black.ttf</key>
+		<data>
+		TMkK+nwnoXgKqlxr4f9WhtQeTws=
+		</data>
+		<key>Nunito-BlackItalic.ttf</key>
+		<data>
+		os5oJJIEcg1XVld1PBNUtVLaTbQ=
+		</data>
+		<key>Nunito-Bold.ttf</key>
+		<data>
+		cCkvv0yTWyGIYroniR2RClEvAZc=
+		</data>
+		<key>Nunito-BoldItalic.ttf</key>
+		<data>
+		TYfApgP9dmAqK2RDfd5WTGnnFjc=
+		</data>
+		<key>Nunito-ExtraBold.ttf</key>
+		<data>
+		kdBLhXZENYIlnPV7t6BOPqf2iS4=
+		</data>
+		<key>Nunito-ExtraBoldItalic.ttf</key>
+		<data>
+		hF5AQ/Mhidmc2jeH3nx0ghuG8wA=
+		</data>
+		<key>Nunito-ExtraLight.ttf</key>
+		<data>
+		EB3dl544j92DwZO4lhJe5b4dyOE=
+		</data>
+		<key>Nunito-ExtraLightItalic.ttf</key>
+		<data>
+		CpX0LxLkubtIu+0IxikC6U3GQ3Y=
+		</data>
+		<key>Nunito-Italic.ttf</key>
+		<data>
+		8TDIC+kX6xvWB5yn/Hsw7zcImto=
+		</data>
+		<key>Nunito-Light.ttf</key>
+		<data>
+		LkTfMAlLNcihqApU1nPZczkHqyE=
+		</data>
+		<key>Nunito-LightItalic.ttf</key>
+		<data>
+		+ZXrXc4InAFHFssqXosxsemKr6k=
+		</data>
+		<key>Nunito-Regular.ttf</key>
+		<data>
+		sQKbHZZtFzLmJBZ3dzOToxNYX7M=
+		</data>
+		<key>Nunito-SemiBold.ttf</key>
+		<data>
+		PmFGf/NIQsTpY9xBRy1AnhG2AXs=
+		</data>
+		<key>Nunito-SemiBoldItalic.ttf</key>
+		<data>
+		NdvJU3aueRfao89MlN1N8x1wTFs=
 		</data>
 		<key>Octicons.ttf</key>
 		<data>
@@ -99,7 +155,7 @@
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Resources/DWARF/habitat_clientTests</key>
 		<data>
-		nFz1jJbmz15SG5Zghk0YO9VYAEQ=
+		DzPW4vLhdwAw+AWUEvOGpPvXGdI=
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
 		<data>
@@ -111,7 +167,99 @@
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
 		<data>
-		FC7BOdVJr7GlJJp9jD2b5xy3WRk=
+		HrvnNCalxX1sXr5TWkCaHGexgu0=
+		</data>
+		<key>Questrial-Regular.ttf</key>
+		<data>
+		64nu3jaAGgs8UPA+QyB5fBjd3uE=
+		</data>
+		<key>Quicksand-Bold.ttf</key>
+		<data>
+		Fp4He7ciL58LUZh0OgDThm8zG9g=
+		</data>
+		<key>Quicksand-Light.ttf</key>
+		<data>
+		tJR+uh7uo6ON246icu+7vqYoUjQ=
+		</data>
+		<key>Quicksand-Medium.ttf</key>
+		<data>
+		47OqRWwuV1g9onk+RFqN81ynuDw=
+		</data>
+		<key>Quicksand-Regular.ttf</key>
+		<data>
+		nHCm0oMAyG3xllMddEtJ/sqeY1o=
+		</data>
+		<key>Raleway-Black.ttf</key>
+		<data>
+		PnwQq75jsESvEmT0r+0BfI9+ZeE=
+		</data>
+		<key>Raleway-BlackItalic.ttf</key>
+		<data>
+		ZbuUYqWlyE53bDLKq/MCZelfYp0=
+		</data>
+		<key>Raleway-Bold.ttf</key>
+		<data>
+		faW88PjOHKpIBvU16hI/9387PAo=
+		</data>
+		<key>Raleway-BoldItalic.ttf</key>
+		<data>
+		oNEtl8+Sogdmh0GXe6dXEE9EE5I=
+		</data>
+		<key>Raleway-ExtraBold.ttf</key>
+		<data>
+		oSWkJULmV5vo9ylBXqUZiZhqGRw=
+		</data>
+		<key>Raleway-ExtraBoldItalic.ttf</key>
+		<data>
+		kYMW1iGOYyM7TDpuVN2lo2lpp6o=
+		</data>
+		<key>Raleway-ExtraLight.ttf</key>
+		<data>
+		id/v0xbD1+9KShxRs8oWbB3+/DY=
+		</data>
+		<key>Raleway-ExtraLightItalic.ttf</key>
+		<data>
+		k4StKop2J2vLAzM4tXd6tkjZBAA=
+		</data>
+		<key>Raleway-Italic.ttf</key>
+		<data>
+		7weY0Q5LomqWJLvvwH2JaHbcHMQ=
+		</data>
+		<key>Raleway-Light.ttf</key>
+		<data>
+		bQVlbWjfYVFKPjC1acr3tLWB0Gk=
+		</data>
+		<key>Raleway-LightItalic.ttf</key>
+		<data>
+		HoGGvNq4pvm0MHnFuHXGvyzZZiU=
+		</data>
+		<key>Raleway-Medium.ttf</key>
+		<data>
+		IuGc1a1CXWRva5Xq8YBEtnVVeIE=
+		</data>
+		<key>Raleway-MediumItalic.ttf</key>
+		<data>
+		GBm3YmdrhEWyZSqfh2k79Qv7yeI=
+		</data>
+		<key>Raleway-Regular.ttf</key>
+		<data>
+		4ZmqZTdY1+a/RDOWMp/N2A+X3AE=
+		</data>
+		<key>Raleway-SemiBold.ttf</key>
+		<data>
+		66CFywmX5KB0IP7bp4L5KulegGI=
+		</data>
+		<key>Raleway-SemiBoldItalic.ttf</key>
+		<data>
+		IUPPIRWs93ezhyAnMKzHQ2w1MmE=
+		</data>
+		<key>Raleway-Thin.ttf</key>
+		<data>
+		8j5GWwWxPmatUOJ2zrii3oMjtWQ=
+		</data>
+		<key>Raleway-ThinItalic.ttf</key>
+		<data>
+		YsgamgMtxC3TYVlLJgwgauXeh8E=
 		</data>
 		<key>SimpleLineIcons.ttf</key>
 		<data>
@@ -128,11 +276,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3/RriA6eLZ0HqTQ21cozrapuWXo=
+			USbQIlMJgWgfMl+OYY4s+qjhW7I=
 			</data>
 			<key>hash2</key>
 			<data>
-			vl2T5TlmMxegpPSLktGGdtiNukA5YpH/1AfHae3HT+8=
+			lR7p//v6XMHBa3IRmBLDONNtvjOBokyNSXG04nmoqAY=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -324,6 +472,160 @@
 			t/Sjq1YgSPKN0fppFgG8QzY6YdD4dtFtgxbFLk8y1pY=
 			</data>
 		</dict>
+		<key>Nunito-Black.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TMkK+nwnoXgKqlxr4f9WhtQeTws=
+			</data>
+			<key>hash2</key>
+			<data>
+			CF1alDhQoFGg4KaaZx+IWfGFHkOKtxQP4LFkA8Xeq1o=
+			</data>
+		</dict>
+		<key>Nunito-BlackItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			os5oJJIEcg1XVld1PBNUtVLaTbQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			0omoY314px0IM3rxBaGZ5F2vKYYjHOxLbzUkFCm1t7c=
+			</data>
+		</dict>
+		<key>Nunito-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cCkvv0yTWyGIYroniR2RClEvAZc=
+			</data>
+			<key>hash2</key>
+			<data>
+			RSX+wNLxghw6sDm9CJEw7WXxQoJJUyHddopr+zS3WQI=
+			</data>
+		</dict>
+		<key>Nunito-BoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			TYfApgP9dmAqK2RDfd5WTGnnFjc=
+			</data>
+			<key>hash2</key>
+			<data>
+			Ti1d//5lis+mqCwKZb/lAgiqMDm5DzTNy/IUPPWCBCw=
+			</data>
+		</dict>
+		<key>Nunito-ExtraBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kdBLhXZENYIlnPV7t6BOPqf2iS4=
+			</data>
+			<key>hash2</key>
+			<data>
+			w29hfQ/bBXL+KqK5vr/Yhei9UuLOos1Ht93LiyuqXbw=
+			</data>
+		</dict>
+		<key>Nunito-ExtraBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hF5AQ/Mhidmc2jeH3nx0ghuG8wA=
+			</data>
+			<key>hash2</key>
+			<data>
+			2xRW37R3va27Dr9WP8hr1REv8M862L+xtF1Qdz1JdPY=
+			</data>
+		</dict>
+		<key>Nunito-ExtraLight.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EB3dl544j92DwZO4lhJe5b4dyOE=
+			</data>
+			<key>hash2</key>
+			<data>
+			7KXHUFja5wNV17wl5LSViavyNo7olmLiBZjh4GpvqpY=
+			</data>
+		</dict>
+		<key>Nunito-ExtraLightItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CpX0LxLkubtIu+0IxikC6U3GQ3Y=
+			</data>
+			<key>hash2</key>
+			<data>
+			ju6FQI5c2tpmonD7gSpR5G0S9AMyTsMbcoSDMRh5QLw=
+			</data>
+		</dict>
+		<key>Nunito-Italic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8TDIC+kX6xvWB5yn/Hsw7zcImto=
+			</data>
+			<key>hash2</key>
+			<data>
+			r7KWXB7OLmbZtSZsnDOIP+dmvsr43ahCuOwDP7U3EUE=
+			</data>
+		</dict>
+		<key>Nunito-Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			LkTfMAlLNcihqApU1nPZczkHqyE=
+			</data>
+			<key>hash2</key>
+			<data>
+			lrkA03hJNNlrDwQUKCmS/7G5OUtJE+G45rlW+OReaks=
+			</data>
+		</dict>
+		<key>Nunito-LightItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+ZXrXc4InAFHFssqXosxsemKr6k=
+			</data>
+			<key>hash2</key>
+			<data>
+			3TbiodE8XRH72PaJhfmBhk+fi9b5I7twHwRy8FkXcVQ=
+			</data>
+		</dict>
+		<key>Nunito-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			sQKbHZZtFzLmJBZ3dzOToxNYX7M=
+			</data>
+			<key>hash2</key>
+			<data>
+			lqK/eT3WY0B/SbzSGf5avKjVLOmNR7YGPjhD210XvN0=
+			</data>
+		</dict>
+		<key>Nunito-SemiBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PmFGf/NIQsTpY9xBRy1AnhG2AXs=
+			</data>
+			<key>hash2</key>
+			<data>
+			jOOgfNBmGco0c/2kkIT0/PbGsK/W7MHBnw2ulTXnBT0=
+			</data>
+		</dict>
+		<key>Nunito-SemiBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NdvJU3aueRfao89MlN1N8x1wTFs=
+			</data>
+			<key>hash2</key>
+			<data>
+			NUk/V6U5qdNCkdBTE7lyZmlcOePCyRYdwkCmgMrn+JY=
+			</data>
+		</dict>
 		<key>Octicons.ttf</key>
 		<dict>
 			<key>hash</key>
@@ -350,11 +652,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nFz1jJbmz15SG5Zghk0YO9VYAEQ=
+			DzPW4vLhdwAw+AWUEvOGpPvXGdI=
 			</data>
 			<key>hash2</key>
 			<data>
-			mtRX8ktzhvdvK5+h299UMbErbH25RkKE1fno+a1vKl0=
+			cp40rN3Waby3k+YAIflzuU+IRfFxqRNt393oaWNugv8=
 			</data>
 		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
@@ -383,11 +685,264 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			FC7BOdVJr7GlJJp9jD2b5xy3WRk=
+			HrvnNCalxX1sXr5TWkCaHGexgu0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ouFva7VRVQDwlO0QpyyNTGsFKXPJck0N5qnVgrnn0GY=
+			xPTqE6/jke5Lmn3RScTKUXPboKWi2D8cDB6H4ZGlL5k=
+			</data>
+		</dict>
+		<key>Questrial-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			64nu3jaAGgs8UPA+QyB5fBjd3uE=
+			</data>
+			<key>hash2</key>
+			<data>
+			eTmQHpKKqoqhel61CRM0EOoLQOkqxJ/QNb/BkdVJ7Z4=
+			</data>
+		</dict>
+		<key>Quicksand-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Fp4He7ciL58LUZh0OgDThm8zG9g=
+			</data>
+			<key>hash2</key>
+			<data>
+			jxRKL+fPjzSjXSkDdv0YkupekXIlFKnoOvUrPdLZjXU=
+			</data>
+		</dict>
+		<key>Quicksand-Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			tJR+uh7uo6ON246icu+7vqYoUjQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			lsc9UQF0o2NnDwFdj6vo/UduXs9Qi3PkWUX50GKpeQ8=
+			</data>
+		</dict>
+		<key>Quicksand-Medium.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			47OqRWwuV1g9onk+RFqN81ynuDw=
+			</data>
+			<key>hash2</key>
+			<data>
+			6B9izhJkRQs7shXU4/3bmBz+TzBM3v+RefjuJb9FRec=
+			</data>
+		</dict>
+		<key>Quicksand-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nHCm0oMAyG3xllMddEtJ/sqeY1o=
+			</data>
+			<key>hash2</key>
+			<data>
+			SFOT1vmertDiEiyoZ6sL1tjCRkjTCH70czdA8UslJzc=
+			</data>
+		</dict>
+		<key>Raleway-Black.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			PnwQq75jsESvEmT0r+0BfI9+ZeE=
+			</data>
+			<key>hash2</key>
+			<data>
+			XSrsg79gSD3BWpLjk6Er4/GSRegvqRPDpV303YEMQFw=
+			</data>
+		</dict>
+		<key>Raleway-BlackItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			ZbuUYqWlyE53bDLKq/MCZelfYp0=
+			</data>
+			<key>hash2</key>
+			<data>
+			4PN5tOL41zX6axiaHQlcF6EeWrn9dVyH/Gu2Tzd5uAE=
+			</data>
+		</dict>
+		<key>Raleway-Bold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			faW88PjOHKpIBvU16hI/9387PAo=
+			</data>
+			<key>hash2</key>
+			<data>
+			yp3os758zUuAd0qcfdVqmMScJ2dxxZV3KbWVjR1XkRI=
+			</data>
+		</dict>
+		<key>Raleway-BoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oNEtl8+Sogdmh0GXe6dXEE9EE5I=
+			</data>
+			<key>hash2</key>
+			<data>
+			ZH+wKaZcDNC1pkodF47k4RhzHpY8se9izyRCe4slHCo=
+			</data>
+		</dict>
+		<key>Raleway-ExtraBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			oSWkJULmV5vo9ylBXqUZiZhqGRw=
+			</data>
+			<key>hash2</key>
+			<data>
+			qJwGwXk+sLFzwhAXRM9T6mb4sks2D1rvdkn28rcSDp4=
+			</data>
+		</dict>
+		<key>Raleway-ExtraBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kYMW1iGOYyM7TDpuVN2lo2lpp6o=
+			</data>
+			<key>hash2</key>
+			<data>
+			Q+4amqv+8lASzf041oN2D36cnl2QrfsCEltOG2Asfmw=
+			</data>
+		</dict>
+		<key>Raleway-ExtraLight.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			id/v0xbD1+9KShxRs8oWbB3+/DY=
+			</data>
+			<key>hash2</key>
+			<data>
+			JiC2O/9vFvsfpeKCCXd8/fxRoMiqHVTqJKWQVB4v1U8=
+			</data>
+		</dict>
+		<key>Raleway-ExtraLightItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			k4StKop2J2vLAzM4tXd6tkjZBAA=
+			</data>
+			<key>hash2</key>
+			<data>
+			AulS0y/I/pbN3UwzUNSoCfFR4QXeFNk1l0yaGfO2usU=
+			</data>
+		</dict>
+		<key>Raleway-Italic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7weY0Q5LomqWJLvvwH2JaHbcHMQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			+cXgibS7V2YhccxxIOHcro1mQytER916e6uwxeBqqT4=
+			</data>
+		</dict>
+		<key>Raleway-Light.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bQVlbWjfYVFKPjC1acr3tLWB0Gk=
+			</data>
+			<key>hash2</key>
+			<data>
+			s9iYYULSj9J8UVi10ksHK77TAbF2P+C/4wdqYx6OoMo=
+			</data>
+		</dict>
+		<key>Raleway-LightItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			HoGGvNq4pvm0MHnFuHXGvyzZZiU=
+			</data>
+			<key>hash2</key>
+			<data>
+			x2ekPAASzct24y8vO1AF4FS6YPz1JlP3xFbwBE4U8dM=
+			</data>
+		</dict>
+		<key>Raleway-Medium.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IuGc1a1CXWRva5Xq8YBEtnVVeIE=
+			</data>
+			<key>hash2</key>
+			<data>
+			PYoEWyyFPuUeXXNNO1Pqzz9fUpDWtbhiE0r1OyndaBg=
+			</data>
+		</dict>
+		<key>Raleway-MediumItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			GBm3YmdrhEWyZSqfh2k79Qv7yeI=
+			</data>
+			<key>hash2</key>
+			<data>
+			96yZ7uU4MyVMiQl8NuxowN45A3fNMbTBwILsOwEyhi4=
+			</data>
+		</dict>
+		<key>Raleway-Regular.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			4ZmqZTdY1+a/RDOWMp/N2A+X3AE=
+			</data>
+			<key>hash2</key>
+			<data>
+			IOSuQJ/76L/SrxTX9xc5hAiui0gQBb7MuD1i70BStoE=
+			</data>
+		</dict>
+		<key>Raleway-SemiBold.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			66CFywmX5KB0IP7bp4L5KulegGI=
+			</data>
+			<key>hash2</key>
+			<data>
+			t2gPMBmfZc47JiBxP3yyehdVYOp0AuC0y6AcXVRQihc=
+			</data>
+		</dict>
+		<key>Raleway-SemiBoldItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IUPPIRWs93ezhyAnMKzHQ2w1MmE=
+			</data>
+			<key>hash2</key>
+			<data>
+			uNSGOV+mW2bLYzIctKJ31RA1/k0L2bSe34Mi6p1VxCw=
+			</data>
+		</dict>
+		<key>Raleway-Thin.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8j5GWwWxPmatUOJ2zrii3oMjtWQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			We44oNbxGRcfiWCYYDJG8r/FeA110jwymLZqA7RdMts=
+			</data>
+		</dict>
+		<key>Raleway-ThinItalic.ttf</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			YsgamgMtxC3TYVlLJgwgauXeh8E=
+			</data>
+			<key>hash2</key>
+			<data>
+			lhqDGstYLbw+19edyZERjWAjjIaDxQWE4Saik6iBJk8=
 			</data>
 		</dict>
 		<key>SimpleLineIcons.ttf</key>
