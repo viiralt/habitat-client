@@ -1,20 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const ListingDetailScreen = props => (
-  <Container>
-    <StyledText>This will be the LISTING DETAIL screen</StyledText>
-  </Container>
-);
+import ListingsList from '../components/ListingsList';
 
-const Container = styled.View`
-  display: flex;
-  flex: 1;
-  align-self: center;
-`;
+const ListingDetailScreen = props => <Container />;
 
-const StyledText = styled.Text`
-  font-weight: bold;
-`;
-
-export default ListingDetailScreen;
+const Container = styled.View``;

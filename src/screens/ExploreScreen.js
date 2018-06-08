@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 
 import { getListings } from '../store/actions/index';
+import ListingsList from '../components/ListingsList';
 
 class ExploreScreen extends Component {
   componentDidMount() {
@@ -11,15 +12,25 @@ class ExploreScreen extends Component {
 
   render() {
     return (
-      <Container>
-        <StyledText>Explore</StyledText>
-      </Container>
+      <MegaWrapper>
+        <ListingsList listings={this.props.listings} />
+      </MegaWrapper>
     );
   }
 }
 
-const Container = styled.View`
+const HeaderWrapper = styled.View`
   display: flex;
+  flex: 1;
+  align-self: center;
+`;
+
+const ListWrapper = styled.View`
+  flex: 1;
+  align-self: center;
+`;
+
+const MegaWrapper = styled.View`
   flex: 1;
   align-self: center;
 `;
