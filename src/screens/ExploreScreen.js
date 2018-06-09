@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 
 import ListingsList from '../components/ListingsList';
+import ListItem from '../components/ListItem';
 
 import { getListings } from '../store/actions/index';
 import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
@@ -16,7 +17,7 @@ class ExploreScreen extends Component {
     return (
       <Container>
         <StyledHeader>Explore</StyledHeader>
-        <ListingsList listings={this.props.listings} />
+        <ListingsList listings={this.props.listings} navigator={this.props.navigator} />
       </Container>
     );
   }
