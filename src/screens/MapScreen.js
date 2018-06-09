@@ -1,20 +1,16 @@
-import React from 'react';
+import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const MapScreen = props => (
-  <Container>
-    <StyledText>This will be the MAP screen</StyledText>
-  </Container>
-);
+import Map from '../components/Map';
 
-const Container = styled.View`
-  display: flex;
-  flex: 1;
-  align-self: center;
-`;
+export default class MapScreen extends Component {
+  render() {
+    return (
+      <Container>
+        <Map />
+      </Container>
+    );
+  }
+}
 
-const StyledText = styled.Text`
-  font-weight: bold;
-`;
-
-export default MapScreen;
+const Container = styled.View``;

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import ListingsList from '../components/ListingsList';
+const ListingDetailScreen = () => <StyledText>Boom, listingDetail!</StyledText>;
 
-const ListingDetailScreen = props => <Container />;
+const StyledText = styled.Text``;
 
-const Container = styled.View``;
+export default ListingDetailScreen;

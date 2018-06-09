@@ -4,21 +4,23 @@ import styled from 'styled-components';
 import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
 
 const ListItem = props => (
-  <Container>
-    <StyledImage source={require('../../assets/img/2.jpg')} />
-    <StyledSlug>
-      {props.listing.property_type.toUpperCase()} - {props.listing.size.bedrooms}
-      {' bedrooms'}
-    </StyledSlug>
-    <StyledName>{props.listing.name}</StyledName>
-    <StyledPrice>
-      {`€`}
-      {props.listing.price} {`per month`}
-    </StyledPrice>
-  </Container>
+  <StyledTouchableOpacity onPress={props.itemSelectedHandler}>
+    <Item>
+      <StyledImage source={require('../../assets/img/2.jpg')} />
+      <StyledSlug>
+        {props.listing.property_type.toUpperCase()} - {props.listing.size.bedrooms}
+        {' bedrooms'}
+      </StyledSlug>
+      <StyledName>{props.listing.name}</StyledName>
+      <StyledPrice>
+        {`€`}
+        {props.listing.price} {`per month`}
+      </StyledPrice>
+    </Item>
+  </StyledTouchableOpacity>
 );
 
-const Container = styled.View`
+const Item = styled.View`
   max-width: 160px;
   margin: 5px;
   align-content: center;
@@ -27,6 +29,7 @@ const Container = styled.View`
 const StyledImage = styled.Image`
   height: 140px;
   width: 160px;
+  border-radius: 2px;
 `;
 
 const StyledSlug = styled.Text`
@@ -46,5 +49,7 @@ const StyledPrice = styled.Text`
   font-size: 10px;
   text-align: center;
 `;
+
+const StyledTouchableOpacity = styled.TouchableOpacity``;
 
 export default ListItem;

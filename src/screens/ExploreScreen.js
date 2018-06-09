@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import styled from 'styled-components';
 
-import { getListings } from '../store/actions/index';
 import ListingsList from '../components/ListingsList';
+
+import { getListings } from '../store/actions/index';
+import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
 
 class ExploreScreen extends Component {
   componentDidMount() {
@@ -11,9 +13,23 @@ class ExploreScreen extends Component {
   }
 
   render() {
-    return <ListingsList listings={this.props.listings} />;
+    return (
+      <Container>
+        <StyledHeader>Explore</StyledHeader>
+        <ListingsList listings={this.props.listings} />
+      </Container>
+    );
   }
 }
+const Container = styled.View``;
+
+const StyledHeader = styled.Text`
+  font-size: 34px;
+  left: 20px;
+  font-weight: bold;
+  font-family: Raleway;
+  margin-bottom: 10px;
+`;
 
 const mapStateToProps = state => ({
   listings: state.listings.listings,

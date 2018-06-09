@@ -4,19 +4,32 @@ import styled from 'styled-components';
 import ListItem from '../components/ListItem';
 
 class ListingsList extends Component {
+  itemSelectedHandler = () => {
+    this.props.navigator.push({
+      screen: 'habitat-client.ListingDetailScreen',
+      title: 'ListingDetailScreen',
+    });
+  };
+
   renderListings = () =>
-    this.props.listings.map(listing => <ListItem listing={listing} key={listing._id} />);
+    this.props.listings.map(listing => (
+      <ListItem
+        listing={listing}
+        key={listing._id}
+        itemSelectedHandler={this.itemSelectedHandler}
+      />
+    ));
 
   render() {
     return (
       <ScrollView>
-        <Container>{this.renderListings()}</Container>
+        <List>{this.renderListings()}</List>
       </ScrollView>
     );
   }
 }
 
-const Container = styled.View`
+const List = styled.View`
   padding: 0;
   margin: 0;
   flex-direction: row;
