@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import styled from 'styled-components';
 
 import ListingsList from '../components/ListingsList';
-import ListItem from '../components/ListItem';
 import SearchBar from '../components/SearchBar';
 
 import { getListings } from '../store/actions/index';
@@ -17,21 +16,32 @@ class ExploreScreen extends Component {
   render() {
     return (
       <Container>
-        <SearchBar />
+        <SearchContainer>
+          <SearchBar />
+        </SearchContainer>
         <StyledHeader>Explore</StyledHeader>
         <ListingsList listings={this.props.listings} navigator={this.props.navigator} />
       </Container>
     );
   }
 }
-const Container = styled.View``;
+
+const Container = styled.View`
+  height: 100%;
+  width: 100%;
+`;
+
+const SearchContainer = styled.View`
+  height: 120;
+  width: 100%;
+`;
 
 const StyledHeader = styled.Text`
-  font-size: 34px;
-  left: 20px;
+  font-size: 34;
+  left: 20;
+  margin-top: 10;
   font-weight: bold;
-  font-family: Raleway;
-  margin-bottom: 10px;
+  font-family: Nunito;
 `;
 
 const mapStateToProps = state => ({

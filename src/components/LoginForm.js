@@ -5,7 +5,7 @@ import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
 
 const LoginForm = props => (
   <Container behavior="padding">
-    <StatusBar barStyle="light-content" />
+    <StatusBar barStyle="dark-content" />
     <Logo>
       <Image source={require('../../assets/logo/logo1.jpg')} />
       <LogoText>habitat</LogoText>
@@ -13,7 +13,7 @@ const LoginForm = props => (
     <Form>
       <TextInput
         placeholder="username or email"
-        placeholderTextColor="rgba(255, 255, 255, 0.7)"
+        placeholderTextColor="#7f8fa6"
         returnKeyType="next"
         keyboardType="email-address"
         autoCapitalize="none"
@@ -21,7 +21,7 @@ const LoginForm = props => (
       />
       <TextInput
         placeholder="password"
-        placeholderTextColor="rgba(255, 255, 255, 0.7)"
+        placeholderTextColor="#7f8fa6"
         secureTextEntry
         returnKeyType="go"
       />
@@ -36,7 +36,7 @@ const StatusBar = styled.StatusBar``;
 
 const Container = styled.KeyboardAvoidingView`
   flex: 1;
-  background-color: #7ed56f;
+  background-color: #ffffffff;
 `;
 
 const Logo = styled.View`
@@ -55,8 +55,8 @@ const LogoText = styled.Text`
   font-family: Quicksand;
   font-size: 24px;
   text-align: center;
-  opacity: 0.9;
-  color: #fff;
+  opacity: 0.8;
+  color: #4cd137;
 `;
 
 const Form = styled.View`
@@ -66,14 +66,16 @@ const Form = styled.View`
 const TextInput = styled.TextInput`
   height: 40;
   margin-bottom: 10;
-  background-color: rgba(255, 255, 255, 0.2);
-  color: #fff;
+  background-color: #ffffff;
+  color: rgb(72, 72, 72);
+  border: 2px;
+  border-color: #f5f6fa;
   padding-horizontal: 10;
 `;
 
 const TouchableOpacity = styled.TouchableOpacity`
   padding-vertical: 15;
-  background-color: #55c57a;
+  background-color: #44bd32;
 `;
 
 const Login = styled.Text`
