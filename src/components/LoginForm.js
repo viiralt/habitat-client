@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
+import { Nunito } from '../styles/fonts';
 
 const LoginForm = props => (
   <Container behavior="padding">
