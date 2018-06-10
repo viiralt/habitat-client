@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 
 import Icon from 'react-native-vector-icons/Ionicons';
+import { Nunito } from '../styles/fonts';
 
 export default class SearchBar extends Component {
   render() {
@@ -17,7 +18,6 @@ export default class SearchBar extends Component {
 }
 
 const Container = styled.KeyboardAvoidingView`
-  background-color: #fff;
   justify-content: center;
   align-items: center;
   flex: 1;
@@ -38,4 +38,5 @@ const SearchBox = styled.View`
 const TextInput = styled.TextInput`
   width: 83%;
   color: rgb(72, 72, 72);
+  font-family: Nunito;
 `;

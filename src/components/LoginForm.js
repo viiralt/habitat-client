@@ -36,7 +36,7 @@ const StatusBar = styled.StatusBar``;
 
 const Container = styled.KeyboardAvoidingView`
   flex: 1;
-  background-color: #ffffffff;
+  background-color: #ffffff;
 `;
 
 const Logo = styled.View`

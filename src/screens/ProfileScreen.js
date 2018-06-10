@@ -1,20 +1,28 @@
 import React from 'react';
 import styled from 'styled-components';
 
+import { Nunito } from '../styles/fonts';
+
 const ProfileScreen = props => (
   <Container>
-    <StyledText>This will be the USER PROFILE screen</StyledText>
+    <StyledText>This will be the profile screen</StyledText>
   </Container>
 );
 
 const Container = styled.View`
-  display: flex;
+  height: 100%;
+  width: 100%;
   flex: 1;
-  align-self: center;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20;
 `;
 
 const StyledText = styled.Text`
-  font-weight: bold;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Nunito;
+  margin-bottom: 10px;
 `;
 
 export default ProfileScreen;

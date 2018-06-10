@@ -3,6 +3,8 @@ import styled from 'styled-components';
 
 import Map from '../components/Map';
 
+import { Nunito } from '../styles/fonts';
+
 export default class MapScreen extends Component {
   render() {
     return (
@@ -15,10 +17,17 @@ export default class MapScreen extends Component {
 }
 
 const StyledHeader = styled.Text`
-  font-size: 34px;
-  font-weight: bold;
-  font-family: Raleway;
+  font-size: 26px;
+  font-weight: 700;
+  font-family: Nunito;
   margin-bottom: 10px;
 `;
 
-const Container = styled.View``;
+const Container = styled.View`
+  height: 100%;
+  width: 100%;
+  flex: 1;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: 20;
+`;

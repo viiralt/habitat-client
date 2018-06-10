@@ -54,9 +54,8 @@ const startTabs = async () => {
       },
     ],
     tabsStyle: {
-      /* tabBarButtonColor: '#fff', */
-      tabBarSelectedButtonColor: '#55c57a',
-      tabBarBackgroundColor: '#fff',
+      tabBarSelectedButtonColor: '#44bd32',
+      tabBarBackgroundColor: '#ffffff',
     },
   });
 };

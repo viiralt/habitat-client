@@ -37,10 +37,9 @@ const SearchContainer = styled.View`
 `;
 
 const StyledHeader = styled.Text`
-  font-size: 34;
+  font-size: 26;
   left: 20;
-  margin-top: 10;
-  font-weight: bold;
+  font-weight: 700;
   font-family: Nunito;
 `;
 
