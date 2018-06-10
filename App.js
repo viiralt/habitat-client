@@ -34,6 +34,8 @@ Navigation.registerComponent(
 Navigation.startSingleScreenApp({
   screen: {
     screen: 'habitat-client.AuthScreen',
-    title: 'Login',
+    navigatorStyle: {
+      navBarHidden: true,
+    },
   },
 });

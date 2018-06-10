@@ -3,21 +3,14 @@ import styled from 'styled-components';
 
 import StartMainTabs from '../screens/startMainTabs';
 
+import LoginForm from '../components/LoginForm';
+
 export default class AuthScreen extends Component {
   loginHandler = () => {
     StartMainTabs();
   };
 
   render() {
-    return (
-      <StyledView>
-        <StyledText>Booom, AuthScreen!</StyledText>
-        <StyledButton title="Login" onPress={this.loginHandler} />
-      </StyledView>
-    );
+    return <LoginForm loginHandler={this.loginHandler} />;
   }
 }
-
-const StyledButton = styled.Button``;
-const StyledText = styled.Text``;
-const StyledView = styled.View``;

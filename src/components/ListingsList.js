@@ -8,6 +8,9 @@ class ListingsList extends Component {
     this.props.navigator.push({
       screen: 'habitat-client.ListingDetailScreen',
       title: 'ListingDetailScreen',
+      passProps: {
+        listings: this.props.listings,
+      },
     });
   };
 
