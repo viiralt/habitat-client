@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 
-import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
+import { Nunito } from '../styles/fonts';
 
 const ListItem = props => (
   <StyledTouchableOpacity onPress={props.itemSelectedHandler}>
@@ -41,8 +41,8 @@ const StyledSlug = styled.Text`
 const StyledName = styled.Text`
   font-size: 12px;
   text-align: center;
-  font-weight: bold;
-  font-family: Raleway;
+  font-weight: 700;
+  font-family: Nunito;
 `;
 
 const StyledPrice = styled.Text`

@@ -6,7 +6,7 @@ import ListingsList from '../components/ListingsList';
 import SearchBar from '../components/SearchBar';
 
 import { getListings } from '../store/actions/index';
-import { Nunito, Questrial, Quicksand, Raleway } from '../styles/fonts';
+import { Nunito } from '../styles/fonts';
 
 class ExploreScreen extends Component {
   componentDidMount() {

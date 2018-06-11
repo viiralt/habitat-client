@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		MSZbftLNeopYGF5IXeWiFZGxZvo=
+		iW8eVRj4JUBpKxzVRTnRqRZ6uUE=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -741,7 +741,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		KEvve82hJjQDSnFOUAy1hqQ6bj4=
+		wFZSTUCcIjkDjW2uf+6g/RTTB8Y=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -819,29 +819,25 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
+		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Info.plist</key>
+		<data>
+		2hDCN9dOPzX9VdIzw2XP7lGFVDU=
+		</data>
+		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Resources/DWARF/habitat_clientTests</key>
+		<data>
+		DzPW4vLhdwAw+AWUEvOGpPvXGdI=
+		</data>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
 		<data>
 		tdF99Pp1vuxBxJvMEt4GceTjdRE=
 		</data>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeDirectory</key>
-		<data>
-		ae9zLHiLioYPaiuJxtzlkxvejhg=
-		</data>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements</key>
-		<data>
-		OnX22wWFKRSOFN1+obRynMCeyXM=
-		</data>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements-1</key>
-		<data>
-		ga3JGZT+DRZ139nCcVh6bWlysnE=
-		</data>
 		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		NHRG4xvwfHrF+fM/HVVWGLZ1+OE=
+		c3w4zDmGOjp/OWpXY/Fa1m854bI=
 		</data>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeSignature</key>
+		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
 		<data>
-		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+		WotTaNM5FW3CbfGn8cWnH9ExzGw=
 		</data>
 		<key>Questrial-Regular.ttf</key>
 		<data>
@@ -950,11 +946,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			MSZbftLNeopYGF5IXeWiFZGxZvo=
+			iW8eVRj4JUBpKxzVRTnRqRZ6uUE=
 			</data>
 			<key>hash2</key>
 			<data>
-			Si0pa92j94dMG9Znlz5Az0L15sLlJ9fDiMF/WOZr7nY=
+			OYNSDQ5inShXLdRo/fLYszqWFSJvZQt3qbCWImV8OZA=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -2613,6 +2609,28 @@
 			NC9CWcIUkNdDyFv9XLIgM5voHcU7RU+sU2mnqmpBMI4=
 			</data>
 		</dict>
+		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Info.plist</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			2hDCN9dOPzX9VdIzw2XP7lGFVDU=
+			</data>
+			<key>hash2</key>
+			<data>
+			dE5QJemZyOJQfWYvb33Q9MNJKMIV+OxiasJckJp4I7s=
+			</data>
+		</dict>
+		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Resources/DWARF/habitat_clientTests</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			DzPW4vLhdwAw+AWUEvOGpPvXGdI=
+			</data>
+			<key>hash2</key>
+			<data>
+			cp40rN3Waby3k+YAIflzuU+IRfFxqRNt393oaWNugv8=
+			</data>
+		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
@@ -2624,59 +2642,26 @@
 			qJiVyZd/SVzRSN7dPeNHRaCtVzcXAo+iQozzn0fmeRQ=
 			</data>
 		</dict>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeDirectory</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ae9zLHiLioYPaiuJxtzlkxvejhg=
-			</data>
-			<key>hash2</key>
-			<data>
-			xg6KH+H76s5GrS3lBqQ5iNsypbdgsUkbyz0X7jihUYs=
-			</data>
-		</dict>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OnX22wWFKRSOFN1+obRynMCeyXM=
-			</data>
-			<key>hash2</key>
-			<data>
-			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
-			</data>
-		</dict>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements-1</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			ga3JGZT+DRZ139nCcVh6bWlysnE=
-			</data>
-			<key>hash2</key>
-			<data>
-			qQ5Mqw9ikxWOYZw5RWc+fSdTqwlhr2UF+iFJCLxTUQM=
-			</data>
-		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			NHRG4xvwfHrF+fM/HVVWGLZ1+OE=
+			c3w4zDmGOjp/OWpXY/Fa1m854bI=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hz/ix+bw1ONN6ie0crS7/GYywDz/FU7SeMDh2gJYY1Q=
+			RsX0uHaYxi77YlCyZMGLdSFKJFRLEMg0aLf/tpIML1k=
 			</data>
 		</dict>
-		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeSignature</key>
+		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
+			WotTaNM5FW3CbfGn8cWnH9ExzGw=
 			</data>
 			<key>hash2</key>
 			<data>
-			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
+			9YY3CREIoaN0+TzAe4xnzSh+vfnwsuOS4AnOY1wT6fM=
 			</data>
 		</dict>
 		<key>Questrial-Regular.ttf</key>

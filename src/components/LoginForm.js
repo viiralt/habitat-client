@@ -61,6 +61,7 @@ const LogoText = styled.Text`
 
 const Form = styled.View`
   padding: 20px;
+  margin-bottom: 20px;
 `;
 
 const TextInput = styled.TextInput`

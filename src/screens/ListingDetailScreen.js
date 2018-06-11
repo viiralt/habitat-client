@@ -1,23 +1,21 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import { connect } from 'react-redux';
 
 import ListItem from '../components/ListItem';
+import ListingsList from '../components/ListingsList';
 
 class ListingDetailScreen extends Component {
   render() {
-    return (
-      <Item>
-        <StyledName>{this.props.listings[0].name}</StyledName>
-      </Item>
-    );
+    return <Text>{this.props.listing.name}</Text>;
   }
 }
 
-const Item = styled.View`
-  height: 200px;
-  width: 200px;
-`;
+const Text = styled.Text``;
 
-const StyledName = styled.Text``;
+const mapStateToProps = (state, ownProps) => ({
+  // listing: state.listings.listings,
+  listing: state.listings.listings.find(listing => listing._id === ownProps.listingId),
+});
 
-export default ListingDetailScreen;
+export default connect(mapStateToProps)(ListingDetailScreen);

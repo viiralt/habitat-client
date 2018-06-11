@@ -6,7 +6,7 @@ import { Nunito } from '../styles/fonts';
 
 const ProfileListItem = props => (
   <Item>
-    <TouchableOpacity>
+    <TouchableOpacity onPress={props.addListingHandler}>
       <ItemText>List your space</ItemText>
       <Icon name="ios-home-outline" size={30} color="#000" />
     </TouchableOpacity>

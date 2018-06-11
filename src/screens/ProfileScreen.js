@@ -17,7 +17,7 @@ const ProfileScreen = props => (
       <UserImage source={require('../../assets/img/henri.jpg')} />
     </ProfileContainer>
     <ListContainer>
-      <ProfileList />
+      <ProfileList navigator={props.navigator} />
     </ListContainer>
   </Wrapper>
 );

@@ -4,12 +4,12 @@ import styled from 'styled-components';
 import ListItem from '../components/ListItem';
 
 class ListingsList extends Component {
-  itemSelectedHandler = () => {
+  itemSelectedHandler = listingId => {
     this.props.navigator.push({
       screen: 'habitat-client.ListingDetailScreen',
       title: 'ListingDetailScreen',
       passProps: {
-        listings: this.props.listings,
+        listingId,
       },
     });
   };
@@ -19,7 +19,7 @@ class ListingsList extends Component {
       <ListItem
         listing={listing}
         key={listing._id}
-        itemSelectedHandler={this.itemSelectedHandler}
+        itemSelectedHandler={() => this.itemSelectedHandler(listing._id)}
       />
     ));
 

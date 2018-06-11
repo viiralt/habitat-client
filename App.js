@@ -10,11 +10,25 @@ import ProfileScreen from './src/screens/ProfileScreen';
 import SavedListingsScreen from './src/screens/SavedListingsScreen';
 
 import configureStore from './src/store/configureStore';
+import CreateListingScreen from './src/screens/CreateListingScreen';
+import CreateListingDetailScreen from './src/screens/CreateListingDetailScreen';
 
 const store = configureStore();
 
 Navigation.registerComponent('habitat-client.AuthScreen', () => AuthScreen);
 Navigation.registerComponent('habitat-client.ChatScreen', () => ChatScreen);
+Navigation.registerComponent(
+  'habitat-client.CreateListingScreen',
+  () => CreateListingScreen,
+  store,
+  Provider
+);
+Navigation.registerComponent(
+  'habitat-client.CreateListingDetailScreen',
+  () => CreateListingDetailScreen,
+  store,
+  Provider
+);
 Navigation.registerComponent('habitat-client.ExploreScreen', () => ExploreScreen, store, Provider);
 Navigation.registerComponent(
   'habitat-client.ListingDetailScreen',
