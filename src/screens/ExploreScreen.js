@@ -36,8 +36,9 @@ const Container = styled.View`
 `;
 
 const SearchContainer = styled.View`
-  height: 120;
+  height: 70;
   width: 100%;
+  margin-top: 20;
 `;
 
 const ListingsContainer = styled.View``;

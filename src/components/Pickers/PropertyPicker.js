@@ -1,33 +1,61 @@
 import React from 'react';
-import styled from 'styled-components';
+import { Text, StyleSheet, View } from 'react-native';
+import RNPickerSelect from 'react-native-picker-select';
+
+import { Nunito } from '../../styles/fonts';
+
+// TODO Change the icon
 
 const PropertyPicker = props => (
-  <PickerContainer>
-    <SmallText>Value: {props.property_type}</SmallText>
-    <Picker selectedValue={props.property_type} onValueChange={props.propertyTypeChangeHandler}>
-      <Picker.Item label="Apartment" value="apartment" />
-      <Picker.Item label="House" value="house" />
-      <Picker.Item label="Penthouse" value="penthouse" />
-      <Picker.Item label="Villa" value="villa" />
-    </Picker>
-  </PickerContainer>
+  <View style={styles.container}>
+    <Text>proptype: {props.property_type}</Text>
+    <RNPickerSelect
+      hideIcon="true"
+      value={props.property_type}
+      onValueChange={props.propertyTypeChangeHandler}
+      style={{ ...pickerSelectStyles }}
+      items={props.items}
+      placeholder={{
+        label: 'Choose property type',
+        value: null,
+      }}
+    />
+  </View>
 );
 
-const PickerContainer = styled.View`
-  position: absolute;
-  bottom: 0;
-  height: 216px;
-  width: 100%;
-  background-color: #fafafa;
-`;
+const styles = StyleSheet.create({
+  container: {
+    paddingTop: 30,
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    paddingHorizontal: 10,
+  },
+});
 
-const Picker = styled.Picker``;
-
-const SmallText = styled.Text`
-  font-family: Nunito;
-  font-weight: 400;
-  font-size: 11px;
-  text-align: center;
-`;
+const pickerSelectStyles = StyleSheet.create({
+  inputIOS: {
+    fontSize: 16,
+    borderWidth: 2,
+    borderColor: '#f5f6fa',
+    borderRadius: 4,
+    backgroundColor: '#fff',
+    color: 'black',
+    fontFamily: 'Nunito',
+    padding: 10,
+  },
+  modalViewTop: {
+    backgroundColor: '#fff',
+  },
+  modalViewMiddle: {
+    backgroundColor: '#fff',
+  },
+  modalViewBottom: {
+    backgroundColor: '#fff',
+  },
+  icon: {},
+  done: {
+    color: '#4cd137',
+  },
+});
 
 export default PropertyPicker;

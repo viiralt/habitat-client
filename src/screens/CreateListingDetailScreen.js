@@ -8,35 +8,32 @@ import { Nunito } from '../styles/fonts';
 
 class CreateListingDetailScreen extends Component {
   state = {
-    property_type: 'apartment',
-    price: 0,
-  };
-
-  priceChangeHandler = value => {
-    this.setState({ price: value });
+    property_type: undefined,
+    items: [
+      {
+        label: 'apartment',
+        value: 'apartment',
+      },
+      {
+        label: 'house',
+        value: 'house',
+      },
+      {
+        label: 'penthouse',
+        value: 'penthouse',
+      },
+    ],
   };
 
   propertyTypeChangeHandler = value => {
     this.setState({ property_type: value });
   };
-  /* 
-  bedroomsChangeHandler = value => {
-    this.setState({ bedrooms: value });
-  };
-
-  bathroomsChangeHandler = value => {
-    this.setState({ bathrooms: value });
-  };
-
-  areaSqmChangeHandler = value => {
-    this.setState({ area_sqm: value });
-  }; */
 
   render() {
     return (
       <Container>
-        <PriceSlider price={this.state.price} priceChangeHandler={this.priceChangeHandler} />
         <PropertyPicker
+          items={this.state.items}
           property_type={this.state.property_type}
           propertyTypeChangeHandler={this.propertyTypeChangeHandler}
         />

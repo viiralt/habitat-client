@@ -4,11 +4,11 @@ import { connect } from 'react-redux';
 
 import Map from '../components/Map';
 import SearchBar from '../components/SearchBar';
-import Icon from 'react-native-vector-icons/Ionicons';
+import Icon from 'react-native-vector-icons';
 
 import { Nunito } from '../styles/fonts';
 
-// TODO figure out how to hide status bar and insert custom nav bar
+// TODO figure out how to auto-resize containers to content!!!
 
 class ListingDetailScreen extends Component {
   clickBackHandler = () => {
@@ -198,7 +198,6 @@ const Contact = styled.Text`
 `;
 
 const mapStateToProps = (state, ownProps) => ({
-  // listing: state.listings.listings,
   listing: state.listings.listings.find(listing => listing._id === ownProps.listingId),
 });
 

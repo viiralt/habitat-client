@@ -31,6 +31,7 @@ const Image = styled.Image`
   height: 140px;
   width: 160px;
   border-radius: 2px;
+  margin-bottom: 5px;
 `;
 
 const Slug = styled.Text`
