@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import { connect } from 'react-redux';
 
 import Map from '../components/Map';
+import SearchBar from '../components/SearchBar';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import { Nunito } from '../styles/fonts';
@@ -10,56 +11,70 @@ import { Nunito } from '../styles/fonts';
 // TODO figure out how to hide status bar and insert custom nav bar
 
 class ListingDetailScreen extends Component {
+  clickBackHandler = () => {
+    this.props.navigator.pop({
+      animated: true,
+      animationType: 'fade',
+    });
+  };
+
   render() {
     return (
       <Container>
-        <Scroller>
-          <Photo source={{ uri: this.props.listing.photo }} />
-          <LeadContainer>
-            <PropertyType>{this.props.listing.property_type.toUpperCase()}</PropertyType>
-            <Name>{this.props.listing.name}</Name>
-          </LeadContainer>
-          <UserLocationContainer>
-            <Location>{this.props.listing.location}</Location>
-            <UserImage source={require('../../assets/img/henri.jpg')} />
-          </UserLocationContainer>
-          <AmenitiesContainer>
-            <IconGroup>
-              <Icon name="ios-crop-outline" size={20} color="#000">
-                <IconText>
-                  {this.props.listing.size.area_sqm}
-                  {'sqm'}
-                </IconText>
-              </Icon>
-              <Icon name="ios-hammer-outline" size={20} color="#000">
-                <IconText marginLeft>{this.props.listing.condition}</IconText>
-              </Icon>
-            </IconGroup>
-            <IconGroup>
-              <Icon name="ios-alarm-outline" size={20} color="#000">
-                <IconText>
-                  {this.props.listing.size.bathrooms}
-                  {'bathrooms'}
-                </IconText>
-              </Icon>
-              <Icon name="ios-barcode-outline" size={20} color="#000">
-                <IconText>
-                  {this.props.listing.size.bedrooms}
-                  {'bedrooms'}
-                </IconText>
-              </Icon>
-            </IconGroup>
-          </AmenitiesContainer>
-          <DescriptionContainer>
-            <Description>"{this.props.listing.description}"</Description>
-          </DescriptionContainer>
-          <Map />
-          <ButtonContainer>
-            <TouchableOpacity>
-              <Contact>CONTACT</Contact>
-            </TouchableOpacity>
-          </ButtonContainer>
-        </Scroller>
+        <NavContainer>
+          <PopScreen onPress={this.clickBackHandler}>
+            <Icon name="ios-arrow-back-outline" size={30} color="#000" />
+          </PopScreen>
+        </NavContainer>
+        <ContentContainer>
+          <ScrollView>
+            <Photo source={{ uri: this.props.listing.photo }} />
+            <LeadContainer>
+              <PropertyType>{this.props.listing.property_type.toUpperCase()}</PropertyType>
+              <Name>{this.props.listing.name}</Name>
+            </LeadContainer>
+            <UserLocationContainer>
+              <Location>{this.props.listing.location}</Location>
+              <UserImage source={require('../../assets/img/henri.jpg')} />
+            </UserLocationContainer>
+            <AmenitiesContainer>
+              <IconGroup>
+                <Icon name="ios-crop-outline" size={20} color="#000">
+                  <IconText>
+                    {this.props.listing.size.area_sqm}
+                    {'sqm'}
+                  </IconText>
+                </Icon>
+                <Icon name="ios-hammer-outline" size={20} color="#000">
+                  <IconText marginLeft>{this.props.listing.condition}</IconText>
+                </Icon>
+              </IconGroup>
+              <IconGroup>
+                <Icon name="ios-alarm-outline" size={20} color="#000">
+                  <IconText>
+                    {this.props.listing.size.bathrooms}
+                    {'bathrooms'}
+                  </IconText>
+                </Icon>
+                <Icon name="ios-barcode-outline" size={20} color="#000">
+                  <IconText>
+                    {this.props.listing.size.bedrooms}
+                    {'bedrooms'}
+                  </IconText>
+                </Icon>
+              </IconGroup>
+            </AmenitiesContainer>
+            <DescriptionContainer>
+              <Description>"{this.props.listing.description}"</Description>
+            </DescriptionContainer>
+            <Map />
+            <ButtonContainer>
+              <TouchableOpacity>
+                <Contact>CONTACT</Contact>
+              </TouchableOpacity>
+            </ButtonContainer>
+          </ScrollView>
+        </ContentContainer>
       </Container>
     );
   }
@@ -70,7 +85,18 @@ const Container = styled.View`
   height: 100%;
 `;
 
-const Scroller = styled.ScrollView``;
+const ContentContainer = styled.View``;
+
+const NavContainer = styled.View`
+  height: 40;
+  width: 100%;
+  margin-top: 30px;
+  left: 10px;
+`;
+
+const PopScreen = styled.TouchableOpacity``;
+
+const ScrollView = styled.ScrollView``;
 
 const Photo = styled.Image`
   width: 100%;
