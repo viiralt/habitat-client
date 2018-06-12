@@ -4,7 +4,13 @@ import styled from 'styled-components';
 const PriceSlider = props => (
   <SliderContainer>
     <SmallText>Value: {props.price}</SmallText>
-    <Slider value={props.price} onValueChange={props.priceSliderChangeHandler} />
+    <Slider
+      value={props.price}
+      onValueChange={props.priceSliderChangeHandler}
+      minimumTrackTintColor="#4cd137"
+      maximumValue={10000}
+      step={10}
+    />
   </SliderContainer>
 );
 

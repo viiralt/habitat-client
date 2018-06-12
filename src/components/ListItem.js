@@ -6,16 +6,16 @@ import { Nunito } from '../styles/fonts';
 const ListItem = props => (
   <StyledTouchableOpacity onPress={props.itemSelectedHandler}>
     <Item>
-      <StyledImage source={require('../../assets/img/2.jpg')} />
-      <StyledSlug>
+      <Image source={require('../../assets/img/3.jpg')} />
+      <Slug>
         {props.listing.property_type.toUpperCase()} - {props.listing.size.bedrooms}
         {' bedrooms'}
-      </StyledSlug>
-      <StyledName>{props.listing.name}</StyledName>
-      <StyledPrice>
+      </Slug>
+      <Name>{props.listing.name}</Name>
+      <Price>
         {`€`}
         {props.listing.price} {`per month`}
-      </StyledPrice>
+      </Price>
     </Item>
   </StyledTouchableOpacity>
 );
@@ -26,26 +26,26 @@ const Item = styled.View`
   align-content: center;
 `;
 
-const StyledImage = styled.Image`
+const Image = styled.Image`
   height: 140px;
   width: 160px;
   border-radius: 2px;
 `;
 
-const StyledSlug = styled.Text`
+const Slug = styled.Text`
   font-size: 10px;
   text-align: center;
   font-family: Nunito;
 `;
 
-const StyledName = styled.Text`
+const Name = styled.Text`
   font-size: 12px;
   text-align: center;
   font-weight: 700;
   font-family: Nunito;
 `;
 
-const StyledPrice = styled.Text`
+const Price = styled.Text`
   font-size: 10px;
   text-align: center;
 `;

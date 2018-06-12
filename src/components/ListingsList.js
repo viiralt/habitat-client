@@ -7,7 +7,9 @@ class ListingsList extends Component {
   itemSelectedHandler = listingId => {
     this.props.navigator.push({
       screen: 'habitat-client.ListingDetailScreen',
-      title: 'ListingDetailScreen',
+      navigatorStyle: {
+        navBarHidden: true,
+      },
       passProps: {
         listingId,
       },
