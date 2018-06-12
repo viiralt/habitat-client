@@ -6,12 +6,13 @@ import { Nunito } from '../styles/fonts';
 const ListItem = props => (
   <StyledTouchableOpacity onPress={props.itemSelectedHandler}>
     <Item>
-      <Image source={require('../../assets/img/3.jpg')} />
+      <Image source={{ uri: props.listing.photo }} />
       <Slug>
         {props.listing.property_type.toUpperCase()} - {props.listing.size.bedrooms}
         {' bedrooms'}
       </Slug>
       <Name>{props.listing.name}</Name>
+      <Location>{props.listing.location}</Location>
       <Price>
         {`€`}
         {props.listing.price} {`per month`}
@@ -45,9 +46,17 @@ const Name = styled.Text`
   font-family: Nunito;
 `;
 
+const Location = styled.Text`
+  font-size: 10px;
+  text-align: center;
+  font-weight: 400;
+  font-family: Nunito;
+`;
+
 const Price = styled.Text`
   font-size: 10px;
   text-align: center;
+  font-family: Nunito;
 `;
 
 const StyledTouchableOpacity = styled.TouchableOpacity``;

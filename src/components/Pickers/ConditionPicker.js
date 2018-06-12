@@ -1,13 +1,14 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const PropertyPicker = props => (
+const ConditionPicker = props => (
   <PickerContainer>
     <SmallText>Value: {props.property_type}</SmallText>
-    <Picker value={props.property_type} onValueChange={props.propTypeChangeHandler}>
-      <Picker.Item label="Apartment" value="apartment" />
-      <Picker.Item label="House" value="house" />
-      <Picker.Item label="Penthouse" value="penthouse" />
+    <Picker selectedValue={props.property_type} onValueChange={props.propTypeChangeHandler}>
+      <Picker.Item label="Brand new" value="brand new" />
+      <Picker.Item label="Good condition" value="good condition" />
+      <Picker.Item label="Recently renovated" value="recently renovated" />
+      <Picker.Item label="Needs renovation" value="needs renovation" />
       <Picker.Item label="Villa" value="villa" />
     </Picker>
   </PickerContainer>
@@ -30,4 +31,4 @@ const SmallText = styled.Text`
   text-align: center;
 `;
 
-export default PropertyPicker;
+export default ConditionPicker;

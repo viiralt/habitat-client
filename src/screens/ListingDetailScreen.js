@@ -14,13 +14,13 @@ class ListingDetailScreen extends Component {
     return (
       <Container>
         <Scroller>
-          <Photo source={require('../../assets/img/3.jpg')} />
+          <Photo source={{ uri: this.props.listing.photo }} />
           <LeadContainer>
             <PropertyType>{this.props.listing.property_type.toUpperCase()}</PropertyType>
             <Name>{this.props.listing.name}</Name>
           </LeadContainer>
           <UserLocationContainer>
-            <Location>Texas, Mexico</Location>
+            <Location>{this.props.listing.location}</Location>
             <UserImage source={require('../../assets/img/henri.jpg')} />
           </UserLocationContainer>
           <AmenitiesContainer>
@@ -32,7 +32,7 @@ class ListingDetailScreen extends Component {
                 </IconText>
               </Icon>
               <Icon name="ios-hammer-outline" size={20} color="#000">
-                <IconText marginLeft>brand new</IconText>
+                <IconText marginLeft>{this.props.listing.condition}</IconText>
               </Icon>
             </IconGroup>
             <IconGroup>
@@ -69,8 +69,6 @@ const Container = styled.View`
   width: 100%;
   height: 100%;
 `;
-
-const BackButton = Icon;
 
 const Scroller = styled.ScrollView``;
 
@@ -145,7 +143,7 @@ const DescriptionContainer = styled.View`
   width: 90%;
   height: 125px;
   margin-left: 20px;
-  flex-wrap: wrap;
+  margin-bottom: 20px;
 `;
 
 const Description = styled.Text`

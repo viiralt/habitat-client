@@ -1,20 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const PriceSlider = props => (
+const AreaSlider = props => (
   <SliderContainer>
-    <SmallText>Value: {props.price}</SmallText>
+    <SmallText>Value: {props.area_sqm}</SmallText>
     <Slider
-      value={props.price}
-      onValueChange={props.priceSliderChangeHandler}
+      value={props.area_sqm}
+      onValueChange={props.areaSqmChangeHandler}
       minimumTrackTintColor="#4cd137"
       maximumValue={10000}
       step={10}
     />
   </SliderContainer>
 );
-
-// TODO: change value to integers with min-max val
 
 const SliderContainer = styled.View`
   width: 200px;

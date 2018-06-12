@@ -26,11 +26,7 @@ class ListingsList extends Component {
     ));
 
   render() {
-    return (
-      <ScrollView>
-        <List>{this.renderListings()}</List>
-      </ScrollView>
-    );
+    return <List>{this.renderListings()}</List>;
   }
 }
 
@@ -41,7 +37,5 @@ const List = styled.View`
   justify-content: center;
   flex-wrap: wrap;
 `;
-
-const ScrollView = styled.ScrollView``;
 
 export default ListingsList;

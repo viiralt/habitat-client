@@ -19,8 +19,12 @@ class ExploreScreen extends Component {
         <SearchContainer>
           <SearchBar />
         </SearchContainer>
-        <StyledHeader>Explore</StyledHeader>
-        <ListingsList listings={this.props.listings} navigator={this.props.navigator} />
+        <ListingsContainer>
+          <ScrollView>
+            <StyledHeader>Explore</StyledHeader>
+            <ListingsList listings={this.props.listings} navigator={this.props.navigator} />
+          </ScrollView>
+        </ListingsContainer>
       </Container>
     );
   }
@@ -35,6 +39,10 @@ const SearchContainer = styled.View`
   height: 120;
   width: 100%;
 `;
+
+const ListingsContainer = styled.View``;
+
+const ScrollView = styled.ScrollView``;
 
 const StyledHeader = styled.Text`
   font-size: 26;

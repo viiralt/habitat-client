@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-import PriceSlider from '../components/PriceSlider';
-import PropertyPicker from '../components/PropertyPicker';
+import PriceSlider from '../components/Sliders/PriceSlider';
+import PropertyPicker from '../components/Pickers/PropertyPicker';
 
 import { Nunito } from '../styles/fonts';
 
@@ -12,24 +12,33 @@ class CreateListingDetailScreen extends Component {
     price: 0,
   };
 
-  priceSliderChangeHandler = value => {
+  priceChangeHandler = value => {
     this.setState({ price: value });
   };
 
-  propTypeChangeHandler = value => {
+  propertyTypeChangeHandler = value => {
     this.setState({ property_type: value });
   };
+  /* 
+  bedroomsChangeHandler = value => {
+    this.setState({ bedrooms: value });
+  };
+
+  bathroomsChangeHandler = value => {
+    this.setState({ bathrooms: value });
+  };
+
+  areaSqmChangeHandler = value => {
+    this.setState({ area_sqm: value });
+  }; */
 
   render() {
     return (
       <Container>
-        <PriceSlider
-          price={this.state.price}
-          priceSliderChangeHandler={this.priceSliderChangeHandler}
-        />
+        <PriceSlider price={this.state.price} priceChangeHandler={this.priceChangeHandler} />
         <PropertyPicker
           property_type={this.state.property_type}
-          propTypeChangeHandler={this.propTypeChangeHandler}
+          propertyTypeChangeHandler={this.propertyTypeChangeHandler}
         />
       </Container>
     );
