@@ -28,7 +28,7 @@ const Item = styled.View`
 `;
 
 const Image = styled.Image`
-  height: 140px;
+  height: 110px;
   width: 160px;
   border-radius: 2px;
   margin-bottom: 5px;

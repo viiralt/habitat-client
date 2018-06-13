@@ -36,7 +36,7 @@ const SearchBox = styled.View`
 `;
 
 const TextInput = styled.TextInput`
-  width: 83%;
+  width: 85%;
   color: rgb(72, 72, 72);
   font-family: Nunito;
 `;

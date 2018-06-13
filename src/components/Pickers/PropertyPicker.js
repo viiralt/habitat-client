@@ -1,5 +1,5 @@
 import React from 'react';
-import { Text, StyleSheet, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
 
 import { Nunito } from '../../styles/fonts';
@@ -8,7 +8,6 @@ import { Nunito } from '../../styles/fonts';
 
 const PropertyPicker = props => (
   <View style={styles.container}>
-    <Text>proptype: {props.property_type}</Text>
     <RNPickerSelect
       hideIcon="true"
       value={props.property_type}

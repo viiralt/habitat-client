@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import styled from 'styled-components';
 import { connect } from 'react-redux';
 
+import Icon from 'react-native-vector-icons/Ionicons';
+
 import Map from '../components/Map';
-import SearchBar from '../components/SearchBar';
-import Icon from 'react-native-vector-icons';
 
 import { Nunito } from '../styles/fonts';
 
@@ -23,8 +23,12 @@ class ListingDetailScreen extends Component {
       <Container>
         <NavContainer>
           <PopScreen onPress={this.clickBackHandler}>
-            <Icon name="ios-arrow-back-outline" size={30} color="#000" />
+            <Icon name="ios-arrow-back-outline" size={20} color="#000" />
           </PopScreen>
+          <Icons>
+            <Icon name="ios-share-outline" size={20} color="#000" />
+            <Icon name="ios-heart-outline" size={20} color="#000" />
+          </Icons>
         </NavContainer>
         <ContentContainer>
           <ScrollView>
@@ -88,13 +92,23 @@ const Container = styled.View`
 const ContentContainer = styled.View``;
 
 const NavContainer = styled.View`
-  height: 40;
-  width: 100%;
+  height: 30px;
+  width: 92%;
   margin-top: 30px;
-  left: 10px;
+  justify-content: space-between;
+  flex-direction: row;
 `;
 
-const PopScreen = styled.TouchableOpacity``;
+const PopScreen = styled.TouchableOpacity`
+  left: 15;
+`;
+
+const Icons = styled.View`
+  flex-direction: row;
+  width: 62px;
+  justify-content: space-between;
+  margin-left: 50;
+`;
 
 const ScrollView = styled.ScrollView``;
 
@@ -105,7 +119,7 @@ const Photo = styled.Image`
 
 const LeadContainer = styled.View`
   width: 100%;
-  height: 90px;
+  height: 60px;
   flex-direction: column;
   margin-top: 20px;
   max-width: 70%;
@@ -126,11 +140,11 @@ const Name = styled.Text`
 
 const UserLocationContainer = styled.View`
   width: 90%;
-  height: 90px;
+  height: 70px;
   margin-left: 20px;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items: flex-start;
 `;
 
 const Location = styled.Text`

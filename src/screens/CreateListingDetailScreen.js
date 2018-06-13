@@ -8,6 +8,7 @@ import { Nunito } from '../styles/fonts';
 
 class CreateListingDetailScreen extends Component {
   state = {
+    price: 0,
     property_type: undefined,
     items: [
       {
@@ -29,6 +30,10 @@ class CreateListingDetailScreen extends Component {
     this.setState({ property_type: value });
   };
 
+  priceChangeHandler = value => {
+    this.setState({ price: value });
+  };
+
   render() {
     return (
       <Container>
@@ -37,6 +42,7 @@ class CreateListingDetailScreen extends Component {
           property_type={this.state.property_type}
           propertyTypeChangeHandler={this.propertyTypeChangeHandler}
         />
+        <PriceSlider price={this.state.price} priceChangeHandler={this.priceChangeHandler} />
       </Container>
     );
   }

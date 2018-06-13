@@ -741,7 +741,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		wFZSTUCcIjkDjW2uf+6g/RTTB8Y=
+		m7ooIIl4k4SVgv0Q7qKvwRs/xI0=
 		</data>
 		<key>Ionicons.ttf</key>
 		<data>
@@ -829,15 +829,15 @@
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
 		<data>
-		tdF99Pp1vuxBxJvMEt4GceTjdRE=
+		9JpCztJd64k8tpvf33OhimOkZ6c=
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		c3w4zDmGOjp/OWpXY/Fa1m854bI=
+		VJho2GHvQ4khH0gJJOY1cnU2R5Q=
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
 		<data>
-		WotTaNM5FW3CbfGn8cWnH9ExzGw=
+		LG1cR6p1nMIdW8gaK5uubJ67FYY=
 		</data>
 		<key>Questrial-Regular.ttf</key>
 		<data>
@@ -2635,33 +2635,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			tdF99Pp1vuxBxJvMEt4GceTjdRE=
+			9JpCztJd64k8tpvf33OhimOkZ6c=
 			</data>
 			<key>hash2</key>
 			<data>
-			qJiVyZd/SVzRSN7dPeNHRaCtVzcXAo+iQozzn0fmeRQ=
+			p/hcWJtTcCyCL4bgVOKy0+wKAmgwtaUiZXSvT7lhlis=
 			</data>
 		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			c3w4zDmGOjp/OWpXY/Fa1m854bI=
+			VJho2GHvQ4khH0gJJOY1cnU2R5Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			RsX0uHaYxi77YlCyZMGLdSFKJFRLEMg0aLf/tpIML1k=
+			iKoBxRd2fUKzxjx3JHrOwJznAN6d8NX2k8D0HgR2jb4=
 			</data>
 		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			WotTaNM5FW3CbfGn8cWnH9ExzGw=
+			LG1cR6p1nMIdW8gaK5uubJ67FYY=
 			</data>
 			<key>hash2</key>
 			<data>
-			9YY3CREIoaN0+TzAe4xnzSh+vfnwsuOS4AnOY1wT6fM=
+			1kOW4ZGtkZSNGAVnlCZwWRX+UaUAbn0wDYedM0J+pUI=
 			</data>
 		</dict>
 		<key>Questrial-Regular.ttf</key>
