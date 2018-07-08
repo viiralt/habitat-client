@@ -5,7 +5,8 @@ import SearchBar from '../../containers/SearchBar/SearchBar';
 import Carousel from '../../containers/Carousel/Carousel';
 
 import ScreenWrapper from '../../elements/ScreenWrapper';
-import MainContainer from '../../elements/MainContainer';
+import VerticalScroll from '../../elements/VerticalScroll';
+import Container from '../../elements/Container';
 
 export default class Explore extends Component {
   /* componentDidMount() {
@@ -15,10 +16,14 @@ export default class Explore extends Component {
   render() {
     return (
       <ScreenWrapper>
-        <MainContainer>
+        <Container>
           <SearchBar />
-          <Carousel />
-        </MainContainer>
+          <Container>
+            <VerticalScroll scrollEventThrottle={16}>
+              <Carousel />
+            </VerticalScroll>
+          </Container>
+        </Container>
       </ScreenWrapper>
     );
   }

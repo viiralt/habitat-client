@@ -1,54 +1,41 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
+import HorizontalScroll from '../../elements/HorizontalScroll';
 import HeaderText from '../../elements/HeaderText';
-import ScrollView from '../../elements/ScrollView';
 import SmallText from '../../elements/SmallText';
-
+import Wrapper from '../../elements/Wrapper';
 import Image from '../../elements/Image';
+import Container from './Container';
 
 export default class Carousel extends Component {
   render() {
     return (
       <Wrapper>
-        <ScrollView scrollEventThrottle={16}>
-          <HeaderText>What properties are you interested in?</HeaderText>
-          <Container>
-            <CarouselScroll horizontal showsHorizontalScrollIndicator={false}>
-              <CarouselContainer>
-                <ImageContainer>
-                  <Image source={require('../../../assets/img/1.jpg')} />
-                </ImageContainer>
-                <ContentContainer>
-                  <SmallText>Wakaka</SmallText>
-                </ContentContainer>
-              </CarouselContainer>
-            </CarouselScroll>
-          </Container>
-        </ScrollView>
+        <HeaderText>What properties are you interested in?</HeaderText>
+        <Container>
+          <HorizontalScroll horizontal showsHorizontalScrollIndicator={false}>
+            <CarouselContainer>
+              <ImageContainer>
+                <Image source={require('../../../assets/img/1.jpg')} />
+              </ImageContainer>
+              <ContentContainer>
+                <SmallText>Wakaka</SmallText>
+              </ContentContainer>
+            </CarouselContainer>
+          </HorizontalScroll>
+        </Container>
       </Wrapper>
     );
   }
 }
 
-const Wrapper = styled.View`
-  padding-top: 20;
-  flex: 1;
-`;
-
-const Container = styled.View`
-  margin-top: 20px;
-`;
-
 const CarouselContainer = styled.View`
   height: 130;
   width: 130;
-  margin: 0 20px;
   border-width: 0.5;
   border-color: #dddddd;
 `;
-
-const CarouselScroll = styled.ScrollView``;
 
 const ImageContainer = styled.View`
   flex: 2;
