@@ -1,7 +1,6 @@
 import React from 'react';
 import { StyleSheet, View } from 'react-native';
 import RNPickerSelect from 'react-native-picker-select';
-import styled from 'styled-components';
 
 import { Nunito } from '../../styles/fonts';
 
@@ -9,48 +8,39 @@ import { Nunito } from '../../styles/fonts';
 
 const PropertyPicker = props => (
   <View style={styles.container}>
-    <Text>Choose a property type</Text>
     <RNPickerSelect
-      hideIcon
+      hideIcon="true"
       value={props.property_type}
       onValueChange={props.propertyTypeChangeHandler}
       style={{ ...pickerSelectStyles }}
       items={props.items}
       placeholder={{
-        label: 'Select one',
+        label: 'Choose property type',
         value: null,
       }}
     />
   </View>
 );
 
-const Text = styled.Text`
-  font-family: Nunito;
-  font-size: 12;
-  font-weight: 400;
-  margin-bottom: 5px;
-`;
-
 const styles = StyleSheet.create({
   container: {
     paddingTop: 30,
     backgroundColor: '#fff',
-    justifyContent: 'flex-start',
-    alignItems: 'flex-start',
+    justifyContent: 'center',
     paddingHorizontal: 10,
   },
 });
 
 const pickerSelectStyles = StyleSheet.create({
   inputIOS: {
-    fontSize: 14,
+    fontSize: 16,
     borderWidth: 2,
     borderColor: '#f5f6fa',
     borderRadius: 4,
     backgroundColor: '#fff',
     color: 'black',
     fontFamily: 'Nunito',
-    padding: 5,
+    padding: 10,
   },
   modalViewTop: {
     backgroundColor: '#fff',

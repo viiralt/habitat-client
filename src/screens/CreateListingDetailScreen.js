@@ -9,7 +9,7 @@ import { Nunito } from '../styles/fonts';
 class CreateListingDetailScreen extends Component {
   state = {
     price: 0,
-    property_type: 'apartment',
+    property_type: undefined,
     items: [
       {
         label: 'apartment',
@@ -22,10 +22,6 @@ class CreateListingDetailScreen extends Component {
       {
         label: 'penthouse',
         value: 'penthouse',
-      },
-      {
-        label: 'villa',
-        value: 'villa',
       },
     ],
   };
@@ -41,7 +37,6 @@ class CreateListingDetailScreen extends Component {
   render() {
     return (
       <Container>
-        <Header>Let's start with the basics...</Header>
         <PropertyPicker
           items={this.state.items}
           property_type={this.state.property_type}
@@ -54,17 +49,16 @@ class CreateListingDetailScreen extends Component {
 }
 
 const Container = styled.View`
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   width: 100%;
   height: 100%;
-  margin-left: 20;
 `;
 
-const Header = styled.Text`
-  font-size: 26;
-  font-weight: 700;
+const SmallText = styled.Text`
   font-family: Nunito;
+  font-weight: 400;
+  font-size: 11px;
 `;
 
 export default CreateListingDetailScreen;

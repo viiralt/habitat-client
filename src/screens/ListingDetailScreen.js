@@ -5,7 +5,6 @@ import { connect } from 'react-redux';
 import Icon from 'react-native-vector-icons/Ionicons';
 
 import Map from '../components/Map';
-import ListingsList from '../components/ListingsList';
 
 import { Nunito } from '../styles/fonts';
 
@@ -73,7 +72,6 @@ class ListingDetailScreen extends Component {
               <Description>"{this.props.listing.description}"</Description>
             </DescriptionContainer>
             <Map />
-
             <ButtonContainer>
               <TouchableOpacity>
                 <Contact>CONTACT</Contact>
@@ -147,7 +145,6 @@ const UserLocationContainer = styled.View`
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 5px;
 `;
 
 const Location = styled.Text`
