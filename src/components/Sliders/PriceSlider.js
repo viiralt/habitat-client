@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const PriceSlider = props => (
   <SliderContainer>
-    <Text>Monthly rental price: {props.price}€</Text>
+    <Text>Monthly rental price: €{props.price}</Text>
     <Slider
       value={props.price}
       onValueChange={props.priceChangeHandler}
@@ -25,7 +25,7 @@ const Slider = styled.Slider``;
 const Text = styled.Text`
   font-family: Nunito;
   font-weight: 400;
-  font-size: 16px;
+  font-size: 14px;
 `;
 
 export default PriceSlider;
