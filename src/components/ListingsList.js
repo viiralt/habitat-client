@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+
+import List from './styled/List';
 
 import ListItem from '../components/ListItem';
 
@@ -29,13 +30,5 @@ class ListingsList extends Component {
     return <List>{this.renderListings()}</List>;
   }
 }
-
-const List = styled.View`
-  padding: 0;
-  margin: 0;
-  flex-direction: row;
-  justify-content: center;
-  flex-wrap: wrap;
-`;
 
 export default ListingsList;
