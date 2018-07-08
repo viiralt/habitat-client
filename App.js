@@ -3,15 +3,15 @@ import { Provider } from 'react-redux';
 
 import AuthScreen from './src/screens/AuthScreen';
 import ChatScreen from './src/screens/ChatScreen';
-import ExploreScreen from './src/screens/ExploreScreen';
+import Explore from './src/screens/Explore/Explore';
 import ListingDetailScreen from './src/screens/ListingDetailScreen';
 import MapScreen from './src/screens/MapScreen';
 import ProfileScreen from './src/screens/ProfileScreen';
 import SavedListingsScreen from './src/screens/SavedListingsScreen';
-
-import configureStore from './src/store/configureStore';
 import CreateListingScreen from './src/screens/CreateListingScreen';
 import CreateListingDetailScreen from './src/screens/CreateListingDetailScreen';
+
+import configureStore from './src/store/configureStore';
 
 const store = configureStore();
 
@@ -29,7 +29,7 @@ Navigation.registerComponent(
   store,
   Provider
 );
-Navigation.registerComponent('habitat-client.ExploreScreen', () => ExploreScreen, store, Provider);
+Navigation.registerComponent('habitat-client.Explore', () => Explore, store, Provider);
 Navigation.registerComponent(
   'habitat-client.ListingDetailScreen',
   () => ListingDetailScreen,

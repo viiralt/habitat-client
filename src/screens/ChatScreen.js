@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Wrapper from '../components/styled/Wrapper';
+import ScreenWrapper from '../elements/ScreenWrapper';
 
-const ChatScreen = props => <Wrapper />;
+const ChatScreen = props => <ScreenWrapper />;
 
 export default ChatScreen;

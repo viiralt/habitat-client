@@ -14,7 +14,7 @@ const startTabs = async () => {
     tabs: [
       {
         label: 'EXPLORE',
-        screen: 'habitat-client.ExploreScreen',
+        screen: 'habitat-client.Explore',
         icon: exploreIcon,
         navigatorStyle: {
           ...navigatorStyle,

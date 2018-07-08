@@ -1,26 +1,25 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
-import SearchBar from '../components/SearchBar';
+import SearchBar from '../../containers/SearchBar/SearchBar';
+import Carousel from '../../containers/Carousel/Carousel';
 
-import Wrapper from '../components/styled/Wrapper';
-import MainContainer from '../components/styled/MainContainer';
-import HeaderContainer from '../components/styled/HeaderContainer';
+import ScreenWrapper from '../../elements/ScreenWrapper';
+import MainContainer from '../../elements/MainContainer';
 
-export default class ExploreScreen extends Component {
+export default class Explore extends Component {
   /* componentDidMount() {
     this.props.onLoadListings();
   } */
 
   render() {
     return (
-      <Wrapper>
+      <ScreenWrapper>
         <MainContainer>
-          <HeaderContainer>
-            <SearchBar />
-          </HeaderContainer>
+          <SearchBar />
+          <Carousel />
         </MainContainer>
-      </Wrapper>
+      </ScreenWrapper>
     );
   }
 }
@@ -34,23 +33,6 @@ const mapDispatchToProps = dispatch => ({
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(ExploreScreen); */
-
-/* const SearchContainer = styled.View`
-  height: 70;
-  width: 100%;
-  margin-top: 20;
-`;
-
-const ListingsContainer = styled.View``;
-
-const ScrollView = styled.ScrollView``;
-
-const StyledHeader = styled.Text`
-  font-size: 26;
-  left: 20;
-  font-weight: 700;
-  font-family: Nunito;
-`; */
 
 /* render() {
   return (
