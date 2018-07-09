@@ -4,9 +4,9 @@ import { connect } from 'react-redux';
 import SearchBar from '../../containers/SearchBar/SearchBar';
 import Carousel from '../../containers/Carousel/Carousel';
 
-import ScreenWrapper from '../../elements/ScreenWrapper';
 import VerticalScroll from '../../elements/VerticalScroll';
-import Container from '../../elements/Container';
+import ScreenWrapper from '../../elements/ScreenWrapper';
+import Section from '../../elements/Section';
 
 export default class Explore extends Component {
   /* componentDidMount() {
@@ -16,14 +16,12 @@ export default class Explore extends Component {
   render() {
     return (
       <ScreenWrapper>
-        <Container>
-          <SearchBar />
-          <Container>
-            <VerticalScroll scrollEventThrottle={16}>
-              <Carousel />
-            </VerticalScroll>
-          </Container>
-        </Container>
+        <SearchBar />
+        <Section>
+          <VerticalScroll scrollEventThrottle={16}>
+            <Carousel />
+          </VerticalScroll>
+        </Section>
       </ScreenWrapper>
     );
   }
