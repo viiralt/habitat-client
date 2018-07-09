@@ -1,8 +1,4 @@
-# See https://help.github.com/ignore-files/ for more about ignoring files.
-
-# expo
-.expo/
-
+ios/build
 # dependencies
 /node_modules
 
@@ -15,3 +11,44 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+
+# Android/IJ
+#
+.idea
+.gradle
+local.properties
+
+# node.js
+#
+node_modules/
+ios/build/
+npm-debug.log
+# BUCK
+buck-out/
+\.buckd/
+android/app/libs
+android/keystores/debug.keystore

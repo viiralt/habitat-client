@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		yyjtsQ96OzuTp8ehbl4FBlhsW1w=
+		vbThHVGM9vv1DHP6eEbnyrnfWIo=
 		</data>
 		<key>Entypo.ttf</key>
 		<data>
@@ -30,31 +30,31 @@
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
-		Tvuq/w6S5/l+mcuMpS91/YjZ2PU=
+		8CN5cCzwKl0+7ieNPMN/SawZQA8=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<data>
-		6cPENvjjcXfDfBToJJ1118da8zc=
+		Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<data>
-		0fLvEeGLEThn4UBToFYXic4rqjA=
+		UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<data>
-		W8UHQlJOUHUdjrnh0RUqh9qxkzY=
+		znuKt4UiTOJWwzrlgwaYX94o/a4=
 		</data>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<data>
-		/6b73ybjbzwjPUHccodzeLJKGpQ=
+		uPxPInP5h9+ERgCm8NCXpuuMEmg=
 		</data>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<data>
-		3NizfJMeU0sJP08q8Qi7wX/AyvI=
+		aHoR6mqqp0XWLqiw49+MRuFNQLk=
 		</data>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<data>
-		+mvvcw5UT9t0SkNxKWk0dLOay+4=
+		2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 		</data>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
 		<dict>
@@ -67,7 +67,7 @@
 		</dict>
 		<key>Frameworks/XCTest.framework/version.plist</key>
 		<data>
-		qhk6hXDyQp/YYzEpKIxg0bW3tlk=
+		DmGu9k7yBOLSfwtyNbn3zYir630=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -739,10 +739,6 @@
 		<data>
 		Kj6ixJMHtndv37xT7AFZAQBgKic=
 		</data>
-		<key>Info.plist</key>
-		<data>
-		37fqo0J+HP3TMhsXiS2Bf9OLY5Q=
-		</data>
 		<key>Ionicons.ttf</key>
 		<data>
 		D3lWcE/mG0nEHqGiIFEkD3AKK0Q=
@@ -819,25 +815,29 @@
 		<data>
 		n57qDP4tZfLD1rCS43W0B4LQjzE=
 		</data>
-		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Info.plist</key>
-		<data>
-		2hDCN9dOPzX9VdIzw2XP7lGFVDU=
-		</data>
-		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Resources/DWARF/habitat_clientTests</key>
-		<data>
-		DzPW4vLhdwAw+AWUEvOGpPvXGdI=
-		</data>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
 		<data>
-		9JpCztJd64k8tpvf33OhimOkZ6c=
+		oKE3G7U06Jj9edmvOUgL96+Gwmg=
+		</data>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeDirectory</key>
+		<data>
+		hMMzDDuTUEAjUAem8AQ41Kp1kiM=
+		</data>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements</key>
+		<data>
+		OnX22wWFKRSOFN1+obRynMCeyXM=
+		</data>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements-1</key>
+		<data>
+		/DCANTUNLqtzTDEQQ+vkC3yk3FQ=
 		</data>
 		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		VJho2GHvQ4khH0gJJOY1cnU2R5Q=
+		NHRG4xvwfHrF+fM/HVVWGLZ1+OE=
 		</data>
-		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeSignature</key>
 		<data>
-		LG1cR6p1nMIdW8gaK5uubJ67FYY=
+		2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 		</data>
 		<key>Questrial-Regular.ttf</key>
 		<data>
@@ -946,11 +946,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yyjtsQ96OzuTp8ehbl4FBlhsW1w=
+			vbThHVGM9vv1DHP6eEbnyrnfWIo=
 			</data>
 			<key>hash2</key>
 			<data>
-			eKVELZA+8N/JV4JAwodUOSCH8ebuzDMRCAWNttebYGI=
+			/zAifZHKDnM/9Y248BFaYeuFyDE/vG64rugh1caIsE0=
 			</data>
 		</dict>
 		<key>Entypo.ttf</key>
@@ -1012,77 +1012,77 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			Tvuq/w6S5/l+mcuMpS91/YjZ2PU=
+			8CN5cCzwKl0+7ieNPMN/SawZQA8=
 			</data>
 			<key>hash2</key>
 			<data>
-			RFPwuGunUCg671vkap3nZ2ykF77o4s2j7zDAn2XbOco=
+			/R1Uy1RZ7ljX2V8ZHMhD4g8ieWHns9sj34YDK2McvfY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			6cPENvjjcXfDfBToJJ1118da8zc=
+			Cwsl4MoHt6dTvyYXRy5C2x7Kd88=
 			</data>
 			<key>hash2</key>
 			<data>
-			LLPF72z23yVBbXYfe0hb4bJQTJFSRVDBk5OyUDe3bos=
+			IvG0kD54lYvEZzfjVmXtrtBdydTUy1uFZkZXUddfTzY=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0fLvEeGLEThn4UBToFYXic4rqjA=
+			UU+vWjYvpE8lKAxV1lE2tUbIZA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jru3xyO+9Pka43kPgZquwkzmdyGftteE5+HGSD6YRdY=
+			Ja3vToXIdN/BmsoAh4U4btDVl5lKbzndKf99CyxV6K4=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/version.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			W8UHQlJOUHUdjrnh0RUqh9qxkzY=
+			znuKt4UiTOJWwzrlgwaYX94o/a4=
 			</data>
 			<key>hash2</key>
 			<data>
-			FPdP4nFPVQpcTGvPqKiPySck4vZwcjNstcWB9HweZYA=
+			napzzKlhgK6Qoqz8QO+9TkyuIsW5V+s6GmClALe2lT4=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/6b73ybjbzwjPUHccodzeLJKGpQ=
+			uPxPInP5h9+ERgCm8NCXpuuMEmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			1uGNx3Hih75LqpmMmnSTa4Vvqk69BmdnsWtAABkb2Ow=
+			N77/gSJpnPT4ryPaR4IJ55aYyiiMCKjlq79qrCmGxU8=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/XCTest</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			3NizfJMeU0sJP08q8Qi7wX/AyvI=
+			aHoR6mqqp0XWLqiw49+MRuFNQLk=
 			</data>
 			<key>hash2</key>
 			<data>
-			XSjXtfthzzaopwW6oSnMLrhafOkn9KkU9ZbZ/aIqCok=
+			unqlGEn5cq6B36PWWq/mAoeeub7L9yZ3vWK7mP9EscQ=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+mvvcw5UT9t0SkNxKWk0dLOay+4=
+			2JoYDV6DTsckEmF+l3Ruo1S1Iqk=
 			</data>
 			<key>hash2</key>
 			<data>
-			LOX9OCUqqITwfF5IEPUIrj9+m8hK39QCJl4WbXY272o=
+			OXS9XX1oATlfFoPHZbc7OGt7HUXfXzNrCz28TkkBo/g=
 			</data>
 		</dict>
 		<key>Frameworks/XCTest.framework/en.lproj/InfoPlist.strings</key>
@@ -1102,11 +1102,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qhk6hXDyQp/YYzEpKIxg0bW3tlk=
+			DmGu9k7yBOLSfwtyNbn3zYir630=
 			</data>
 			<key>hash2</key>
 			<data>
-			L4ikvo5qrwsx21+syxZrwgRwrNbc3av4ZtEyZl/yF78=
+			2hnwNPgdaewT28DbTqe0Gpaccdc2akBF8IjnGtISc58=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -2609,59 +2609,70 @@
 			NC9CWcIUkNdDyFv9XLIgM5voHcU7RU+sU2mnqmpBMI4=
 			</data>
 		</dict>
-		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Info.plist</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			2hDCN9dOPzX9VdIzw2XP7lGFVDU=
-			</data>
-			<key>hash2</key>
-			<data>
-			dE5QJemZyOJQfWYvb33Q9MNJKMIV+OxiasJckJp4I7s=
-			</data>
-		</dict>
-		<key>PlugIns/habitat_clientTests.xctest.dSYM/Contents/Resources/DWARF/habitat_clientTests</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DzPW4vLhdwAw+AWUEvOGpPvXGdI=
-			</data>
-			<key>hash2</key>
-			<data>
-			cp40rN3Waby3k+YAIflzuU+IRfFxqRNt393oaWNugv8=
-			</data>
-		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			9JpCztJd64k8tpvf33OhimOkZ6c=
+			oKE3G7U06Jj9edmvOUgL96+Gwmg=
 			</data>
 			<key>hash2</key>
 			<data>
-			p/hcWJtTcCyCL4bgVOKy0+wKAmgwtaUiZXSvT7lhlis=
+			0J0uQOatZCaZOOh3d8mxYxMSfh6JP8TD+9DCtN9Q+ZE=
+			</data>
+		</dict>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeDirectory</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			hMMzDDuTUEAjUAem8AQ41Kp1kiM=
+			</data>
+			<key>hash2</key>
+			<data>
+			7CQ2EOfEkx5VPIUelwGagpaFyjgTdnGnpD9wdWUpzco=
+			</data>
+		</dict>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			OnX22wWFKRSOFN1+obRynMCeyXM=
+			</data>
+			<key>hash2</key>
+			<data>
+			mHkgkE6rZQ51eIwFSqCwUk5qgL/HGqMt+NI3phdD+YY=
+			</data>
+		</dict>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeRequirements-1</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/DCANTUNLqtzTDEQQ+vkC3yk3FQ=
+			</data>
+			<key>hash2</key>
+			<data>
+			8OAqgp4yMLsxNpt4OSaX5O8+ezJxHn9GEDUlPvmymh8=
 			</data>
 		</dict>
 		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VJho2GHvQ4khH0gJJOY1cnU2R5Q=
+			NHRG4xvwfHrF+fM/HVVWGLZ1+OE=
 			</data>
 			<key>hash2</key>
 			<data>
-			iKoBxRd2fUKzxjx3JHrOwJznAN6d8NX2k8D0HgR2jb4=
+			Hz/ix+bw1ONN6ie0crS7/GYywDz/FU7SeMDh2gJYY1Q=
 			</data>
 		</dict>
-		<key>PlugIns/habitat_clientTests.xctest/habitat_clientTests</key>
+		<key>PlugIns/habitat_clientTests.xctest/_CodeSignature/CodeSignature</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			LG1cR6p1nMIdW8gaK5uubJ67FYY=
+			2jmj7l5rSw0yVb/vlWAYkK/YBwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			1kOW4ZGtkZSNGAVnlCZwWRX+UaUAbn0wDYedM0J+pUI=
+			47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=
 			</data>
 		</dict>
 		<key>Questrial-Regular.ttf</key>

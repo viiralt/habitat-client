@@ -48,7 +48,6 @@
 		5869A231F68149F3A2413BE9 /* Raleway-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 109C73FB8C3F483FA0BDE8AA /* Raleway-Regular.ttf */; };
 		58CD0D2493014669BD6D71B4 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 74332691C1B74BCA834E766A /* Zocial.ttf */; };
 		59C3D0F709AB48F8AFAEAE85 /* Nunito-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FEB8C8327ED428D8D66BDA0 /* Nunito-Bold.ttf */; };
-		5CA04F90AC614E278DB90179 /* libRNSearchBar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FF17A8FE15694A4DB3CC4F80 /* libRNSearchBar.a */; };
 		5CDC098B6D3A471DA4A33624 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1F298032759944CEAB10EBEA /* FontAwesome.ttf */; };
 		62E72AE5B83B4990B7D80B67 /* Raleway-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 69AA30A28639482F9A137721 /* Raleway-ExtraBold.ttf */; };
 		648D801667924EE8A5F24930 /* Nunito-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3CBB14E2A46645B09DED9C25 /* Nunito-LightItalic.ttf */; };
@@ -520,7 +519,6 @@
 				832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */,
 				00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */,
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
-				5CA04F90AC614E278DB90179 /* libRNSearchBar.a in Frameworks */,
 				A38222D9147FFE32DACEB5F7 /* libPods-habitat_client.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
