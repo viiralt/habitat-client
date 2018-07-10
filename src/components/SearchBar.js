@@ -34,7 +34,6 @@ const SearchContainer = styled.View`
   margin-bottom: 20px;
   margin-horizontal: 20px;
   background-color: #ffffff;
-  border-radius: 4;
 `;
 
 const TextInput = styled.TextInput`

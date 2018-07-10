@@ -3,6 +3,7 @@ import { connect } from 'react-redux';
 
 import SearchBar from '../components/SearchBar';
 import Carousel from '../components/Carousel';
+import Listings from '../components/Listings';
 import Curated from '../components/Curated';
 
 import VerticalScroll from '../elements/VerticalScroll';
@@ -20,6 +21,7 @@ export default class ExploreScreen extends Component {
         <VerticalScroll scrollEventThrottle={16}>
           <Carousel />
           <Curated />
+          <Listings />
         </VerticalScroll>
       </ScreenWrapper>
     );
