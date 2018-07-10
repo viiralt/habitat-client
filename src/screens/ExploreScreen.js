@@ -2,10 +2,11 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 
 import SearchBar from '../components/SearchBar';
+import Carousel from '../components/Carousel';
+import Curated from '../components/Curated';
 
-import Wrapper from '../components/styled/Wrapper';
-import MainContainer from '../components/styled/MainContainer';
-import HeaderContainer from '../components/styled/HeaderContainer';
+import VerticalScroll from '../elements/VerticalScroll';
+import ScreenWrapper from '../elements/ScreenWrapper';
 
 export default class ExploreScreen extends Component {
   /* componentDidMount() {
@@ -14,13 +15,13 @@ export default class ExploreScreen extends Component {
 
   render() {
     return (
-      <Wrapper>
-        <MainContainer>
-          <HeaderContainer>
-            <SearchBar />
-          </HeaderContainer>
-        </MainContainer>
-      </Wrapper>
+      <ScreenWrapper>
+        <SearchBar />
+        <VerticalScroll scrollEventThrottle={16}>
+          <Carousel />
+          <Curated />
+        </VerticalScroll>
+      </ScreenWrapper>
     );
   }
 }

@@ -17,22 +17,24 @@ export default class SearchBar extends Component {
 }
 
 const Wrapper = styled.View`
-  flex-direction: row;
-  padding: 10px;
-  height: 40;
-  margin-horizontal: 30px;
+  height: 80px;
+  margin-bottom: 20px;
+  border-bottom-width: 1;
   background-color: #ffffff;
-  shadow-offset: 0;
-  shadow-color: #000;
-  shadow-opacity: 0.2;
+  border-bottom-color: #dddddd;
 `;
 
 const SearchContainer = styled.View`
-  height: 80px;
-  border-bottom-width: 1;
-  background-color: #ffffff;
+  height: 40;
+  padding: 10px;
+  shadow-offset: 0;
+  shadow-color: #000;
+  flex-direction: row;
+  shadow-opacity: 0.2;
   margin-bottom: 20px;
-  border-bottom-color: #dddddd;
+  margin-horizontal: 20px;
+  background-color: #ffffff;
+  border-radius: 4;
 `;
 
 const TextInput = styled.TextInput`

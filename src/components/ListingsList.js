@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+/* import React, { Component } from 'react';
 
 import List from './styled/List';
 
@@ -32,3 +32,4 @@ class ListingsList extends Component {
 }
 
 export default ListingsList;
+ */

@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Wrapper from '../components/styled/Wrapper';
+import Wrapper from '../elements/Wrapper';
 
 const ChatScreen = props => <Wrapper />;
 
