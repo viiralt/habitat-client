@@ -4,7 +4,7 @@ Habitat is a real estate platform that aims to take agents and agencies out of t
 
 
 * [Getting started](#getting-started)
-* [Progress](#updating-to-new-releases)
+* [Progress](#progress)
 * [Tech stack](#tech-stack)
 * [Contributions](#contributions)
 * [Author](#author)
@@ -53,7 +53,7 @@ React Native - Redux/Thunk - Styled Components
 
 ### Author
 
-Henri Viiralt - [Github](https://github.com/viiralt/habitat-client/edit/master/README.md) - [LinkedIn](https://www.linkedin.com/in/viiralt/)
+Henri Viiralt - [Github](https://github.com/viiralt/) - [LinkedIn](https://www.linkedin.com/in/viiralt/)
 
 ### Backend 
 
