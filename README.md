@@ -28,7 +28,7 @@ git clone https://github.com/[your-github-profile-name]/habitat-client.git
 ```
 npm install
 ```
-4. Run the simulator of choice. Please note that the iOS simulator requires [XCode](https://developer.apple.com/xcode/) while Android requires Android Studio[https://developer.android.com/studio/]
+4. Run the simulator of choice. Please note that the iOS simulator requires [XCode](https://developer.apple.com/xcode/) while Android requires [Android Studio](https://developer.android.com/studio/)
 ```
 npm run ios simulator
 ```
