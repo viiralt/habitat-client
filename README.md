@@ -36,7 +36,7 @@ or
 ```
 npm run android
 ```
-Also note that the app is currently optimised for iPhone X.
+Since I lack access to an Android device, please note that the app is currently optimised for iPhone X.
 
 ## Progress
 
