@@ -41,7 +41,7 @@ Also note that the app is currently optimised for iPhone X.
 ## Progress
 
 This project is a day 0 eject from Expo.
-I'm currently in the process of refactoring the entire frontend by removing redundancies and impoving modularity/reusability in all components. 
+I'm currently in the process of refactoring the entire frontend by removing redundancies and impoving modularity/reusability in all components. Currently there may be strange bugs where the bundle.js fails, and build can only be achieved via XCode and not by running the terminal script.
 
 ### Tech Stack
 
